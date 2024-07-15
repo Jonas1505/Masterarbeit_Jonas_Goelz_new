@@ -1,0 +1,206 @@
+\chapter{Anhang}
+\label{ch_99Anhang}
+%\section{Berechnung der Koeffizienten für die dimensionslose Luftspaltleitwertfunktion}
+%\label{ch_99FunktionLeit}
+%In \cite{Kolbe.1983} empirisch ermittelte Gewichtsfunktion
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit1}
+%a_\lambda =
+%\begin{cases}
+%     e^{-\frac{1}{6}\left(\frac{b_\textsf{Q}}{\delta} - 1 \right)}, & \text{für} \quad \frac{b_\textsf{Q}}{\delta}\geq 10.6\\
+%    \sin^4\left(\frac{\pi}{2} \frac{19- \frac{b_\textsf{Q}}{\delta}}{18} \right),              & \text{für} \quad \frac{b_\textsf{Q}}{\delta} < 10.6
+%\end{cases}
+%\end{equation}
+%%
+%und
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit2}
+%b_\lambda = 1 - a_\lambda.
+%\end{equation}
+%%
+%Größe
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit3}
+%\beta_\lambda = 0.5 - \left[4 + \left(\frac{b_\textsf{Q}}{\delta} \right)^2 \right]^{-0.5}
+%\end{equation}
+%%
+%nach Carter für die Ermittlung der Tiefe des Feldeinbruchs in der Nutmitte \cite{Carter.1901}.
+%
+%Empirisch in \cite{Kolbe.1983} bestimmte äquivalente Nutschlitzbreite:
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit4}
+%b_\textsf{0} = b_\textsf{Q} \left[ 1 + \left(0.8 + 10^{-4}\left(\frac{b_\textsf{Q}}{\delta} - 6\right)^4 \right) \cdot e^{-\frac{1}{8.5}\left(\frac{b_\textsf{Q}}{\delta} - 0.9 \right)} \right]
+%\end{equation}
+%%
+%Die für die Funktion des dimensionslosen Luftspaltleitwerts benötigten Koeffizienten
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit5}
+%\tilde{\lambda}_\textsf{0} = 2 \left[1-\beta_\lambda \frac{b_\textsf{0}}{\tau_\textsf{Q}}\left(a_\lambda + b_\lambda \frac{11}{8} \right) \right]
+%\end{equation}
+%%
+%und
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit6}
+%\tilde{\lambda}_{\nu_\textsf{S}} = \frac{\beta_\lambda}{\pi \nu_\textsf{S}} \sin\left(\frac{\pi}{x_{\nu_\textsf{S}}} \right) \left[\frac{2 a_\lambda}{\frac{1}{x_{\nu_\textsf{S}}^2}-1} + \frac{b_\lambda}{8} \left( \frac{15}{1- x_{\nu_\textsf{S}}^2} + \frac{6}{1- 4x_{\nu_\textsf{S}}^2} + \frac{1}{1- 9x_{\nu_\textsf{S}}^2} -22 \right) \right]
+%\end{equation}
+%%
+%können zusammen mit der Hilfsgröße
+%%
+%\begin{equation}
+%\label{equ_99FunktionLeit7}
+%x_{\nu_\textsf{S}} = \frac{1}{\nu_\textsf{S} \frac{b_\textsf{0}}{\tau_\textsf{Q}}}
+%\end{equation}
+%%
+%berechnet werden \cite{Kolbe.1983}.
+%
+%\newpage
+%\section{Berechnung der dimensionslosen Geometrieeinfluss-Koeffizienten}
+%\label{ch_99FunktionAnaly}
+%Nachfolgend die Berechnung der dimensionslosen Geometrieeinfluss-Koeffizienten $\rho_\textsf{1,\nu}$ bis $\rho_\textsf{4,\nu}$ nach \cite{Barcaro.2011}:
+%%
+%\begin{equation}
+%\begin{aligned}
+%\rho_{\textsf{1,}\nu} = &(a+z(b-c+y(d-e+x(g-h))))\sin\left(\nu p \vartheta_\textsf{fb,1}\right) \\
+% &+ z(c+y(e-f+x(h-k)))\sin\left(\nu p \vartheta_\textsf{fb,2}\right) \\
+% &+ z\cdot y(f+x(k-l))\sin\left(\nu p \vartheta_\textsf{fb,3}\right) \\
+% &+ z\cdot y\cdot x\cdot l\cdot \sin\left(\nu p \vartheta_\textsf{fb,4}\right)
+%\end{aligned}
+%\label{equ_99FunktionAnaly1}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%\begin{aligned}
+%\rho_{\textsf{2,}\nu} = &(b-c+y(d-e+x(g-h)))\sin\left(\nu p \vartheta_\textsf{fb,1}\right) \\
+% &+ (c+y(e-f+x(h-k)))\sin\left(\nu p \vartheta_\textsf{fb,2}\right) \\
+% &+ y(f+x(k-l))\sin\left(\nu p \vartheta_\textsf{fb,3}\right) \\
+% &+ y\cdot x\cdot l\cdot \sin\left(\nu p \vartheta_\textsf{fb,4}\right)
+%\end{aligned}
+%\label{equ_99FunktionAnaly2}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%\begin{aligned}
+%\rho_{\textsf{3,}\nu} = &(d-e+x(g-h))\sin\left(\nu p \vartheta_\textsf{fb,1}\right) \\
+% &+ (e-f+x(h-k))\sin\left(\nu p \vartheta_\textsf{fb,2}\right) \\
+% &+ (f+x(k-l))\sin\left(\nu p \vartheta_\textsf{fb,3}\right) \\
+% &+ x\cdot l\cdot \sin\left(\nu p \vartheta_\textsf{fb,4}\right)
+%\end{aligned}
+%\label{equ_99FunktionAnaly3}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%\begin{aligned}
+%\rho_{\textsf{4,}\nu} = &(g-h)\sin\left(\nu p \vartheta_\textsf{fb,1}\right) \\
+% &+ (h-k)\sin\left(\nu p \vartheta_\textsf{fb,2}\right) \\
+% &+ (k-l)\sin\left(\nu p \vartheta_\textsf{fb,3}\right) \\
+% &+ l\cdot \sin\left(\nu p \vartheta_\textsf{fb,4}\right)
+%\end{aligned}
+%\label{equ_99FunktionAnaly4}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%a = \left(\frac{d_\textsf{Si}}{2\delta} \frac{w_\textsf{fb,1}}{l_\textsf{fb,1}}\right) \cdot z
+%\label{equ_99FunktionAnaly5}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%z = \frac{1}{1 + \frac{d_\textsf{Si}}{\delta} \frac{w_\textsf{fb,1}}{l_\textsf{fb,1}} \vartheta_\textsf{fb,1}}
+%\label{equ_99FunktionAnaly6}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%b = \left(a \frac{l_\textsf{fb,1}}{w_\textsf{fb,1}} \frac{w_\textsf{fb,2}}{l_\textsf{fb,2}}\right) \cdot y
+%\label{equ_99FunktionAnaly7}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%c = \left(\frac{d_\textsf{Si}}{2\delta} \frac{w_\textsf{fb,2}}{l_\textsf{fb,2}}\right) \cdot y
+%\label{equ_99FunktionAnaly8}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%y = \frac{1}{1 - (z-1)\frac{l_\textsf{fb,1}}{w_\textsf{fb,1}} \frac{w_\textsf{fb,2}}{l_\textsf{fb,2}} + \frac{d_\textsf{Si}}{\delta} \frac{w_\textsf{fb,2}}{l_\textsf{fb,2}} \left(\vartheta_\textsf{fb,2} - \vartheta_\textsf{fb,1}\right)}
+%\label{equ_99FunktionAnaly9}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%d = \left(b \frac{l_\textsf{fb,2}}{w_\textsf{fb,2}} \frac{w_\textsf{fb,3}}{l_\textsf{fb,3}}\right) \cdot x
+%\label{equ_99FunktionAnaly10}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%e = \left(c \frac{l_\textsf{fb,2}}{w_\textsf{fb,2}} \frac{w_\textsf{fb,3}}{l_\textsf{fb,3}}\right) \cdot x
+%\label{equ_99FunktionAnaly11}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%f = \left(\frac{d_\textsf{Si}}{2\delta} \frac{w_\textsf{fb,3}}{l_\textsf{fb,3}}\right) \cdot x
+%\label{equ_99FunktionAnaly12}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%x = \frac{1}{1 - (y-1)\frac{l_\textsf{fb,2}}{w_\textsf{fb,2}} \frac{w_\textsf{fb,3}}{l_\textsf{fb,3}} + \frac{d_\textsf{Si}}{\delta} \frac{w_\textsf{fb,3}}{l_\textsf{fb,3}} \left(\vartheta_\textsf{fb,3} - \vartheta_\textsf{fb,2}\right)}
+%\label{equ_99FunktionAnaly13}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%g = \left(d \frac{l_\textsf{fb,3}}{w_\textsf{fb,3}} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}}\right) \cdot w
+%\label{equ_99FunktionAnaly14}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%h = \left(e \frac{l_\textsf{fb,3}}{w_\textsf{fb,3}} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}}\right) \cdot w
+%\label{equ_99FunktionAnaly15}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%k = \left(f \frac{l_\textsf{fb,3}}{w_\textsf{fb,3}} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}}\right) \cdot w
+%\label{equ_99FunktionAnaly16}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%l = \left(\frac{d_\textsf{Si}}{2\delta} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}}\right) \cdot w
+%\label{equ_99FunktionAnaly17}
+%\end{equation}
+%%
+%%
+%\begin{equation}
+%w = \frac{1}{1 - (x-1)\frac{l_\textsf{fb,3}}{w_\textsf{fb,3}} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}} + \frac{d_\textsf{Si}}{\delta} \frac{w_\textsf{fb,4}}{l_\textsf{fb,4}} \left(\vartheta_\textsf{fb,4} - \vartheta_\textsf{fb,3}\right)}
+%\label{equ_99FunktionAnaly18}
+%\end{equation}
+%%
+%An dieser stelle sei angemerkt, dass die Notation hier von der in \cite{Barcaro.2011} abweicht.
+%
+%\section{Ergebnisse des Berechnungsskripts und der FE-gestützten Optimierung}
+%\label{ch_99MagSimErg}
+%
+%\begin{figure}[H]
+%\centering
+%\def\svgwidth{490pt}
+%\input{figures/99_Anhang/rel_rippel_sym.pdf_tex}
+%\caption[Relative Drehmomentwelligkeit der Variante 1 über den Flusssperrenpositionen]{Relative Drehmomentwelligkeit der getesteten Rotorgeometrien der Variante 1 aufgetragen über den Flusssperrenpositionen: links Berechnungsskript, rechts FE-Simulation}
+%\label{fig_99MagSimErg1}
+%\end{figure}
+%\quad

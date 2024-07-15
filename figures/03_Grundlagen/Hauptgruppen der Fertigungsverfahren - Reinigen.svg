@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="205.20125mm"
+   height="90.161011mm"
+   viewBox="0 0 205.20125 90.161011"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Hauptgruppen der Fertigungsverfahren - Reinigen.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title102">Hauptgruppen der Fertigungsverfahren - Reinigen</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.4752917"
+     inkscape:cx="325.35937"
+     inkscape:cy="189.45405"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0.12074774"
+       originy="-9.9195001"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.12074774,-9.9195)">
+    <g
+       id="g8"
+       transform="translate(-6.2823622e-7,-7.4704148)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="176.44716"
+         y="36.471169"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="176.44716"
+           y="36.471169">Stoffeigenschaft</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="176.44716"
+           y="41.321869"
+           id="tspan2">       ändern</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 175.00001,42.470415 V 32.470414 H 205 v 10.000001 z"
+         id="path7" />
+    </g>
+    <g
+       id="g7"
+       transform="translate(18.384024,-15.944817)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 121.61598,50.944817 V 40.944816 h 30 v 10.000001 z"
+         id="path6" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="126.51878"
+         y="47.3554"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="126.51878"
+           y="47.3554">Beschichten</tspan></text>
+    </g>
+    <g
+       id="g10"
+       transform="translate(0.89862276,-15.00612)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 104.10138,50.00612 V 40.006119 h 30 V 50.00612 Z"
+         id="path5" />
+      <g
+         id="g9">
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="109.27192"
+           y="43.820606"
+           id="text8"><tspan
+             sodipodi:role="line"
+             id="tspan8"
+             style="stroke-width:0.161"
+             x="109.27192"
+             y="43.820606">    Fügen</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.161"
+             x="109.27192"
+             y="48.671307"
+             id="tspan9">DIN 8593-0</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#b90f22;stroke-width:0.361;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stroke-dasharray:none"
+       d="M 70.000003,35 V 24.999999 H 100 V 35 Z"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       x="78.034393"
+       y="31.284466"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:0.161"
+         x="78.034393"
+         y="31.284466">Trennen</tspan></text>
+    <g
+       id="g12"
+       transform="translate(-4.0092128,-9.9362678)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 39.009214,44.936268 V 34.936267 h 30 v 10.000001 z"
+         id="path3" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="44.959751"
+         y="38.923439"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="stroke-width:0.161"
+           x="44.959751"
+           y="38.923439">Umformen</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="44.959751"
+           y="43.774139"
+           id="tspan12"> DIN 8582</tspan></text>
+    </g>
+    <g
+       id="g13"
+       transform="translate(-15.614744,-12.503158)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 15.614744,47.503158 V 37.503157 h 30 v 10.000001 z"
+         id="path2" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="22.411243"
+         y="43.923443"
+         id="text13"><tspan
+           sodipodi:role="line"
+           id="tspan13"
+           style="stroke-width:0.161"
+           x="22.411243"
+           y="43.923443">Urformen</tspan></text>
+    </g>
+    <g
+       id="g15"
+       transform="translate(27.499999,-35.38273)"
+       style="stroke:none">
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="58.022556"
+         y="48.903316"
+         id="text14"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="stroke:none;stroke-width:0.161"
+           x="58.022556"
+           y="48.903316">Fertigungsverfahren</tspan></text>
+      <path
+         style="fill:none;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 55,50.382728 V 45.38273 h 40.000002 v 4.999998 z"
+         id="path14" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 102.5,19.999999 H 85.000001 v 5"
+       id="path19" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="m 102.5,14.999998 v 5.000001 H 120 v 5"
+       id="path16" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="m 120,19.999999 h 35 v 5"
+       id="path17" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="m 155,19.999999 h 35 v 5"
+       id="path18" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 85.000001,19.999999 H 50 v 5"
+       id="path20" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 50,19.999999 H 15 v 5"
+       id="path21" />
+    <g
+       id="g40"
+       transform="translate(-37.510008,-23.84186)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="107.97781"
+         y="77.878883"
+         id="text25"><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="107.97781"
+           y="77.878883"
+           id="tspan27"> Spanen mit geo-</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="107.97781"
+           y="82.729584"
+           id="tspan30"> metrisch unbest-</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="107.97781"
+           y="87.580284"
+           id="tspan29">  mmten Schnei-</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="107.97781"
+           y="92.430984"
+           id="tspan28"> den DIN 8589-0</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="m 107.46976,73.882108 h 30 v 20 h -30 z"
+         id="path30" />
+    </g>
+    <g
+       id="g39"
+       transform="translate(-15.040251,-26.281065)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="51.264759"
+         y="80.318085"
+         id="text21"><tspan
+           sodipodi:role="line"
+           id="tspan21"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="51.264759"
+           y="80.318085">Spanen mit geo-</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="51.264759"
+           y="85.168785"
+           id="tspan22"> metrisch best-</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="51.264759"
+           y="90.019485"
+           id="tspan23">immten Schnei-</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="51.264759"
+           y="94.870186"
+           id="tspan24">den DIN 8589-0</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="m 50.000002,76.321312 h 30 v 20.000003 h -30 z"
+         id="path32" />
+    </g>
+    <g
+       id="g51"
+       transform="translate(-9.1012546,-75.238641)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="M 9.0610069,125.27889 H 39.061003 v 20 H 9.0610069 Z"
+         id="path33" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="15.882728"
+         y="131.8252"
+         id="text40"><tspan
+           sodipodi:role="line"
+           id="tspan40"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="15.882728"
+           y="131.8252">Zerteilen</tspan><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="15.882728"
+           y="136.67589"
+           id="tspan41" /><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.161"
+           x="15.882728"
+           y="141.5266"
+           id="tspan42">DIN 8588</tspan></text>
+    </g>
+    <g
+       id="g52"
+       transform="translate(51.063198,-82.058391)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="m 53.816055,132.09864 h 30 v 20 h -30 z"
+         id="path36" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="60.699867"
+         y="138.57509"
+         id="text43"><tspan
+           sodipodi:role="line"
+           id="tspan43"
+           style="stroke-width:0.161"
+           x="60.699867"
+           y="138.57509">Abtragen</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="60.699867"
+           y="143.42578"
+           id="tspan44" /><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="60.699867"
+           y="148.27649"
+           id="tspan45">DIN 8590</tspan></text>
+    </g>
+    <g
+       id="g54"
+       transform="translate(17.168124,-75.993041)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         d="m 122.79163,126.03329 h 30 v 20 h -30 z"
+         id="path34" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="129.70454"
+         y="132.50975"
+         id="text46"><tspan
+           sodipodi:role="line"
+           id="tspan46"
+           style="stroke-width:0.161"
+           x="129.70454"
+           y="132.50975">Zerlegen</tspan><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="129.70454"
+           y="137.36044"
+           id="tspan47" /><tspan
+           sodipodi:role="line"
+           style="stroke-width:0.161"
+           x="129.70454"
+           y="142.21115"
+           id="tspan48">DIN 8591</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#b90f22;stroke-width:0.361;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;stroke-dasharray:none"
+       d="m 174.95976,50.040248 h 30 v 20 h -30 z"
+       id="path35" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       x="181.78342"
+       y="56.462376"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         style="stroke-width:0.161"
+         x="181.78342"
+         y="56.462376">Reinigen</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.161"
+         x="181.78342"
+         y="61.313068"
+         id="tspan50" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.161"
+         x="181.78342"
+         y="66.163773"
+         id="tspan51">DIN 8592</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 85.000001,34.999998 V 49.999997"
+       id="path55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 85.000001,42.499996 H 15 v 7.500001"
+       id="path56" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="m 50,42.499996 v 7.500001"
+       id="path57" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 85.000001,42.499996 H 190 v 7.500001"
+       id="path58" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 120,49.999997 V 42.499996"
+       id="path59" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 155,49.999997 V 42.499996"
+       id="path60" />
+    <g
+       id="g83"
+       transform="translate(0.04025111,-0.0402502)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+         x="93"
+         y="91.999992"
+         id="text32"><tspan
+           sodipodi:role="line"
+           id="tspan32"
+           style="stroke-width:0.161"
+           x="93"
+           y="91.999992"> </tspan></text>
+      <g
+         id="g82"
+         transform="translate(45.000001,-7.4597452)">
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="30.325764"
+           y="96.067047"
+           id="text60"><tspan
+             sodipodi:role="line"
+             id="tspan60"
+             style="fill:#000000;stroke:none;stroke-width:0.161"
+             x="30.325764"
+             y="96.067047">Strömungs-</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;stroke:none;stroke-width:0.161"
+             x="30.325764"
+             y="100.91775"
+             id="tspan61">technisches</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;stroke:none;stroke-width:0.161"
+             x="30.325764"
+             y="105.76845"
+             id="tspan62">  Reinigen</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           d="m 25.000001,92.499996 h 30 V 107.5 h -30 z"
+           id="path62" />
+      </g>
+      <g
+         id="g76"
+         transform="translate(-33.600276,-37.402552)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           d="m 33.519779,122.4428 h 29.999998 v 15.00001 H 33.519779 Z"
+           id="path67" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="38.65733"
+           y="128.8737"
+           id="text67"><tspan
+             sodipodi:role="line"
+             id="tspan67"
+             style="fill:#000000;stroke:none;stroke-width:0.161"
+             x="38.65733"
+             y="128.8737">Reinigungs-</tspan><tspan
+             sodipodi:role="line"
+             style="fill:#000000;stroke:none;stroke-width:0.161"
+             x="38.65733"
+             y="133.7244"
+             id="tspan68">  strahlen</tspan></text>
+      </g>
+      <g
+         id="g77"
+         transform="translate(-33.892874,-42.767822)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           d="m 68.892876,127.80807 h 29.999998 v 15.00001 H 68.892876 Z"
+           id="path66" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="72.206581"
+           y="133.88779"
+           id="text69"><tspan
+             sodipodi:role="line"
+             id="tspan69"
+             style="stroke-width:0.161"
+             x="72.206581"
+             y="133.88779">Mechanisches </tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.161"
+             x="72.206581"
+             y="138.73848"
+             id="tspan70">    Reinigen</tspan></text>
+      </g>
+      <g
+         id="g78"
+         transform="translate(17.625523,-19.127022)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           d="m 87.37448,104.16727 h 30 v 15.00001 h -30 z"
+           id="path63" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="93.088303"
+           y="110.24699"
+           id="text71"><tspan
+             sodipodi:role="line"
+             id="tspan71"
+             style="stroke-width:0.161"
+             x="93.088303"
+             y="110.24699">Lösemittel-</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.161"
+             x="93.088303"
+             y="115.09769"
+             id="tspan72">  reinigen</tspan></text>
+      </g>
+      <g
+         id="g80"
+         transform="translate(-20.844476,2.3214048)">
+        <g
+           id="g79"
+           transform="translate(38.34465,-20.983137)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+             d="m 122.49983,103.70198 h 30 v 15.00001 h -30 z"
+             id="path64" />
+          <text
+             xml:space="preserve"
+             style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+             x="127.66262"
+             y="109.7817"
+             id="text73"><tspan
+               sodipodi:role="line"
+               id="tspan73"
+               style="stroke-width:0.161"
+               x="127.66262"
+               y="109.7817">Chemisches</tspan><tspan
+               sodipodi:role="line"
+               style="stroke-width:0.161"
+               x="127.66262"
+               y="114.6324"
+               id="tspan74">  Reinigen</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g81"
+         transform="translate(29.155525,-17.767827)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           d="m 145.76398,102.80808 h 30 v 15 h -30 z"
+           id="path65" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+           x="150.25349"
+           y="108.88779"
+           id="text75"><tspan
+             sodipodi:role="line"
+             id="tspan75"
+             style="stroke-width:0.161"
+             x="150.25349"
+             y="108.88779">Thermisches</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.161"
+             x="150.25349"
+             y="113.73849"
+             id="tspan76">   Reinigen</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 190,69.999997 V 84.999996"
+       id="path83" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 190,77.499995 H 15 v 7.500001"
+       id="path84" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 50,84.999996 V 77.499995"
+       id="path85" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 85.000001,84.999996 V 77.499995"
+       id="path86" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 120,84.999996 V 77.499995"
+       id="path87" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       d="M 155,84.999996 V 77.499995"
+       id="path88" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       x="0.93562281"
+       y="18.294022"
+       id="text88"><tspan
+         sodipodi:role="line"
+         id="tspan88"
+         style="fill:#000000;stroke:none;stroke-width:0.161"
+         x="0.93562281"
+         y="18.294022">Hauptgruppen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       x="0.63682675"
+       y="75.59182"
+       id="text89"><tspan
+         sodipodi:role="line"
+         id="tspan89"
+         style="stroke-width:0.161;stroke:none;-inkscape-font-specification:Charter;font-family:Charter;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="0.63682675"
+         y="75.59182">Untergruppen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:Charter;-inkscape-font-specification:Charter;fill:#000000;stroke:none;stroke-width:0.161;stroke-linecap:square;stroke-linejoin:bevel"
+       x="0.78622478"
+       y="40.857498"
+       id="text90"><tspan
+         sodipodi:role="line"
+         id="tspan90"
+         style="stroke-width:0.161;stroke:none;-inkscape-font-specification:Charter;font-family:Charter;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         x="0.78622478"
+         y="40.857498">Gruppen</tspan></text>
+  </g>
+  <metadata
+     id="metadata102">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Hauptgruppen der Fertigungsverfahren - Reinigen</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

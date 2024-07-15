@@ -1,0 +1,126 @@
+\section{Grundlagen1}
+Es kann auf andere Kapitel, Gleichungen, Tabellen und Abbildungen verwiesen werden über Labels. Hier Beispiele: Kapitel \ref{ch_03Grundlagen1_1}, Gleichung (\ref{equ_03Grundlagen1_1_1_2}),
+Tabelle \ref{tab_03Grundlagen1_1_1},
+Abbildung \ref{fig_03Fourier1}
+
+Es ist Sinnvoll auf die Abbildungen und Tabellen immer mit Hilfe dieser Labels zu verweisen, da die Position dieser im Text von TeX so bestimmt wird, dass sich ein gleichmäßiges Schriftbild ergibt. Hierdurch kommen die Abbildungen und Tabellen nicht immer an der Stelle zum liegen an der sie im Code eingefügt sind.
+
+Die Vergebenen Labels müssen immer eindeutig sein. Die Nummerierung bei den Labels wird von TeX immer automatisch beim kompilieren aktualisiert. Ist ein Label nicht Vorhanden beispielsweise aufgrund eines Schreibfehlers, werden an der entsprechenden Stelle Fragezeichen eingefügt, wie hier \ref{Fantasielabel}. Deshalb kann es Sinnvoll sein Stellen an denen noch etwas zu bearbeiten ist mit Fragezeichen zu kennzeichnen und am Ende das Dokument über die Suchfunktion nach Fragezeichen zu durchsuchen, um nichts zu vergessen und Fehler in den Labels zu entdecken.
+
+Bei den Quellenverweisen wird in ähnlicher Form mit Labels gearbeitet. Die Daten zu den Literaturquellen sind in der bib-Datei im bibliography-Ordner hinterlegt. In dieser Datei sind für die Literatur-Einträge auch Labels hinterlegt, welche hier z.B. \cite{Binder.2017} oder optional mit Angabe der Seitenzahl \cite[S.666]{Binder.2017} oder als Aufzählung \cite{Bianchi.2009, Kerdsup.2014, Sanada.2003, Howard.2015} aufgerufen werden können. Die bib-Datei kann entweder händisch erstellt werden (nicht zu empfehlen) oder z.B. über ein Literaturverwaltungsprogramm wie Citavi. Die Labels(bibtex-keys) können in Citavi verändert werden und werden dann beim nächsten Export der bib-Datei eingetragen.
+
+
+\subsection{Grundlagen1\_1}
+\label{ch_03Grundlagen1_1}
+Beispiel für eine Aufzählung:
+
+Bei den vereinfachenden Annahmen handelt es sich um die Folgenden \cite{Binder.2017}:
+\begin{itemize}
+\item Das Eisen wird als näherungsweise unendlich magnetisch leitfähig (ideales Eisen) angenommen $\mu_{\textsf{Fe}} \to \infty$.
+\item Das Luftspaltfeld besitzt nur eine radiale Komponente, da die Luftspaltweite $\delta$ viel kleiner ist als die Polteilung $\tau_{\textsf{P}}$. 
+\item Es wird ein ebenes zweidimensionales Feld vorausgesetzt; Randeffekte an den Enden der Maschine werden vernachlässigt.
+\item Die Spulen und die Nuten, in denen diese liegen, werden als punktförmig angenommen (\textit{Dirac}'sche Durchflutungsimpulse).
+\end{itemize}
+
+Für die Erstellung von Tabellen sei auch auf hilfreiche Seiten wie https://www.tablesgenerator.com verwiesen. 
+
+\begin{table}[h]
+	\begin{center}
+		\caption[Maschinen-Kenndaten der ausgewählten Rotorblechschnittvarianten]{Maschinen-Kenndaten der ausgewählten Rotorblechschnittvarianten für den Betriebspunkt $I_\textsf{S}=1.6\,\textsf{A}$, $\beta =55°$}
+		\begin{tabular}{c|c|c|c|c|}
+		\cline{2-5}
+		                       	    & Variante 1A & Variante 1B & Variante 2A & Variante 2B \\ \hline
+		\multicolumn{1}{|c|}{$M_\textsf{e,mean}$} & $5.39\,\textsf{Nm}$ & $5.37\,\textsf{Nm}$ & $5.32\,\textsf{Nm}$ & $5.28\,\textsf{Nm}$ \\ \hline
+		\multicolumn{1}{|c|}{$\Delta M_\textsf{e,rel}$} & $8.78\,\%$ & $8.97\,\%$ & $4.52\,\%$ & $4.33\,\%$ \\ \hline
+		\multicolumn{1}{|c|}{$\cos\left(\varphi_\textsf{S} \right)$ für $R_\textsf{S}=0$} & $0.716$ & $0.720$ & $0.719$ & $0.717$ \\ \hline
+		\multicolumn{1}{|c|}{$\max\left(M_\textsf{e} \right)$} & $5.67\,\textsf{Nm}$ & $5.64\,\textsf{Nm}$ & $5.44\,\textsf{Nm}$ & $5.42\,\textsf{Nm}$ \\ \hline
+		\multicolumn{1}{|c|}{$\min\left(M_\textsf{e} \right)$} & $5.20\,\textsf{Nm}$ & $5.16\,\textsf{Nm}$ & $5.20\,\textsf{Nm}$ & $5.19\,\textsf{Nm}$ \\ \hline
+		\end{tabular}
+		\label{tab_03Grundlagen1_1_1}
+	\end{center}
+\end{table}
+
+\subsubsection{Grundlagen1\_1\_1}
+\label{ch_03Grundlagen1_1_1}
+In Abbildung \ref{fig_03Grundlagen1_1_1_1} ist ein Beispielbild zu sehen welches mit Inkscape erstellt worden ist. Die Bildunterschrift in eckigen Klammern ist die gekürzte Version für das Abbildungsverzeichnis und in geschweiften Klammern steht die ausführliche Beschreibung. Dies gilt ebenfalls für die Tabelle \ref{tab_03Grundlagen1_1_1}. 
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{400pt}
+\input{figures/03_Grundlagen/Spule_2_poliger_Motor.pdf_tex}
+\caption[Zweipoliger Motor mit einer Ständerspule und homogenem Rotor]{Zweipoliger Motor mit einer Ständerspule und homogenem Rotor: \textbf{a)} Querschnitt und Feldlinien $\vec{B}$ in Folge der Nutdurchflutung $\Theta_\textsf{Q}$; \textbf{b)} Skizze des Flussdichteverlaufs $B(x)$ und Strombelags $A_\textsf{S}(x)$ über dem Luftspaltumfang $x$, nach \cite{Binder.2017}}
+\label{fig_03Grundlagen1_1_1_1}
+\end{figure}
+
+Um die Flussdichte $B_\delta$ im Luftspalt quantitativ mit dem Stromfluss $i_\textsf{C}$ in der Wicklung in Verbindung zu bringen, werden das Gesetz vom magnetischen Hüllenfluss
+%
+\begin{equation}
+\label{equ_03Grundlagen1_1_1_1}
+\oint\limits_A \vec{B} \,\text{d}\vec{A} = 0,
+\end{equation}
+%
+der Durchflutungssatz von \textit{Ampère}
+%
+\begin{equation}
+\label{equ_03Grundlagen1_1_1_2}
+\oint\limits_C \vec{H} \,\text{d}\vec{s} = \Theta
+\end{equation}
+%
+und das Materialgesetz
+%
+\begin{equation}
+\label{equ_03Grundlagen1_1_1_3}
+\vec{B} = \mu(H) \cdot \vec{H}
+\end{equation}
+%
+benötigt \cite{Binder.2017}.
+
+\subsubsection{\textit{Fourier}-Reihenentwicklung der Felderregerkurve}
+\label{ch_03Fourier}
+Die \textit{Fourier}-Reihe einer $2\pi$-periodischen Funktion $V(\gamma)$ lässt sich in der folgenden Form darstellen \cite{Binder.2017}:
+
+\begin{equation}
+\label{equ_03Fourier1}
+V(\gamma) = V_\textsf{mean} + \sum\limits_{\nu=1,2,3...}^\infty \left \lbrack \hat{V}_{\nu\textsf{,a}} \cdot \cos(\nu \gamma) + \hat{V}_{\nu\textsf{,b}} \cdot \sin(\nu \gamma) \right \rbrack
+\end{equation}
+
+Die Amplituden der Harmonischen $\hat{V}_{\nu\textsf{, a}}$ und $\hat{V}_{\nu\textsf{, b}}$ mit den Ordnungszahlen $\nu$ berechnen sich aus den Integralen (\ref{equ_03Fourier2}) und (\ref{equ_03Fourier3}) \cite{Binder.2017}.
+%
+\begin{equation}
+\hat{V}_{\nu\textsf{, a}} = \frac{1}{\pi} \int\limits_{0}^{2\pi} V(\gamma) \cdot \cos(\nu\gamma) \,\text{d}\gamma
+\label{equ_03Fourier2}
+\end{equation}
+%
+%
+\begin{equation}
+\hat{V}_{\nu\textsf{, b}} = \frac{1}{\pi} \int\limits_{0}^{2\pi} V(\gamma) \cdot \sin(\nu\gamma) \,\text{d}\gamma
+\label{equ_03Fourier3}
+\end{equation}
+%
+Die Konstante $V_\textsf{mean}$ stellt den Mittelwert der periodischen Funktion $V(\gamma)$ dar und ergibt sich aus dem Integral (\ref{equ_03Fourier4}) \cite{Binder.2017}.
+%
+\begin{equation}
+V_\textsf{mean} = \frac{1}{2\pi} \int\limits_{0}^{2\pi} V(\gamma) \,\text{d}\gamma
+\label{equ_03Fourier4}
+\end{equation}
+%
+
+\begin{figure}[h]
+\centering
+\def\svgwidth{490pt}
+\input{figures/03_Grundlagen/Fourier_1_Spule.pdf_tex}
+\caption[Felderregerkurve $V_\textsf{C}(\gamma)$ einer Spule eines Strangs einer Einschichtwicklung]{Felderregerkurve $V_\textsf{C}(\gamma)$ einer Spule eines Strangs einer Einschichtwicklung, nach \cite{Binder.2017}}
+\label{fig_03Fourier1}
+\end{figure}
+
+\subsubsection{Luftspaltleitwert}
+\label{ch_03Nutoeffnung}
+
+Die Grafik \ref{fig_03Nutoeffnung1} wurde mit Python erstellt und als svg-Datei (Vektorgrafik) abgespeichert. Anschließend wurden in Inkscape noch kleine Korrekturen der Achsen Beschriftungen vorgenommen.
+\begin{figure}[h]
+\centering
+\def\svgwidth{340pt}
+\input{figures/03_Grundlagen/dimensionslose_Leitwertfunktion.pdf_tex}
+\caption[Berechnete dimensionslose Leitwertfunktion $\tilde{\lambda}(\gamma)$ für einen vierpoligen Stator]{Berechnete dimensionslose Leitwertfunktion $\tilde{\lambda}(\gamma)$ für einen vierpoligen Stator mit $Q=36$ Nuten}
+\label{fig_03Nutoeffnung1}
+\end{figure}

@@ -1,0 +1,313 @@
+\section{Demand-Response und Energieflexibilisierung}
+\label{ch_03Demand-Response und Energieflexibilisierung}
+
+In der Literatur werden die Begriffe Demand-Response und Energieflexibilsierung häufig im gleichen Kontext verwendet. Es folgen die Definitionen beider Begriffe und eine differenzierte Ansicht darauf, wie und ob sie sich unterscheiden.\\
+
+Energieflexibilität ist definiert als: \glqq Fähigkeit eines Produktionssystems sich schnell und prozesseffizient an Änderungen des Energiemarktes anzupassen.\grqq~\cite{VDI5207Blatt2020}
+Die Produktqualität wird durch diese Eignung nicht signifikant beeinflusst.\\
+
+
+Im Kontext der Energieflexibilisierung ist es maßgeblich die Begriffe Energieflexibilitätsmaßnahme und Energieflexibilitätspotenzial voneinander abzugrenzen. Eine bestimmte Anlage oder eine gesamte Fabrik kann entsprechend in dem Maße der Höhe des jeweiligen Energieflexibilitätspotenzials energieflexibel betrieben werden. Das bedeutet, dass die Fähigkeit zur Anpassung an variable Energiebedingungen direkt vom vorhandenen Energieflexibilitätspotenzial abhängt. Es beschreibt den Umfang der veränderbaren Last unter vorherrschenden Rahmenbedingungen \cite{VDI5207Blatt2020}. Für eine präzise Beurteilung des Energieflexibilitätspotenzials ist eine Abgrenzung des Potenzials wie in Abbildung \ref{fig_03Potenzialbegriffe} von hoher Relevanz.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400pt]{figures/03_Grundlagen/Potenzialbegriffe.pdf}
+	\caption{Potenzialbegriffe, nach \cite{VDI5207Blatt2020}}
+	\label{fig_03Potenzialbegriffe}
+\end{figure}
+
+Wie in der Abbildung \ref*{fig_03Potenzialbegriffe} dargestellt, umfasst das theoretische Potenzial sämtliche anderen Potenziale. Es handelt sich um eine berechnete Größe, die sich aus der Anschlussleistung aller Endenergieformen ergibt. Unter Endenergie werden die gehandelten und dem Markt entzogenen Energieträger verstanden. Sie dienen primär der Herstellung und Transformation von Nutzenergie. Das technische Potenzial ist ein wenig differenzierter als das theoretische Potenzial. Hier liegt der Fokus auf den Energieanforderungen, welche an die jeweiligen technologischen Rahmenbedingungen angepasst werden. Das heißt, es werden entsprechende Parameter der Anlagen variiert, um somit die Leistungsaufnahme und die einzelnen Zeitintervalle zu steuern \cite{VDI5207Blatt2020}.\\
+
+Auf der tiefsten Ebene sind das wirtschaftliche und praktische Potenzial dargestellt. Beide Potenziale sind Teilmengen des technischen Potenzials. In der wirtschaftlichen Betrachtung wird der Teil des technischen Potenzials untersucht, welcher auch ökonomisch genutzt werden kann. Dieses Potenzial kann nur genutzt werden, wenn der Break-Even-Punkt überschritten wird und somit die Erlöse durch die Nutzung der Energieflexibilität die Kosten übersteigen. Die praktische Ansicht betrachtet ebenfalls eine Teilmenge des technischen Potenzials. Sie berücksichtigt geschäftliche, regulatorische und administrative Einschränkungen. Die Schnittmenge des wirtschaftlichen und des praktischen Potenzials bildet das realisierbare Potenzial ab. Hier wird untersucht, wie Energieflexibilität wirtschaftlich sinnvoll unter den bestehenden Unternehmenseinschränkungen eingesetzt werden kann \cite{VDI5207Blatt2020}.\\
+
+Diese Arbeit beinhaltet eine Energieflexibilitäts- bzw. Demand-Response Analyse, welches das technische Potenzial der betrachteten DLRA untersucht um festzulegen, welche Elemente der Anlage für die Energieflexibilisierung zur Verfügung stehen, siehe Kapitel \ref{ch_06Bewertung verschiedener Flexibilitätsziele und deren technologische Umsetzungsmöglichkeiten}. Um das wirtschaftliche Potenzial zu analysieren, werden in Kapitel \ref{ch_06Wirtschaftliche Analyse der Maßnahmen} verschiedene Energieflexibilitätsmaßnahmen ökonomisch bewertet um dann zu entscheiden, welche auf der MES-Ebene umgesetzt werden sollen \cite{VDI5207Blatt2020}.\\
+
+Um die verschiedenen Energieflexibilitätspotenziale nutzen zu können, werden passende Energieflexibilitätsmaßnahmen ausgewählt und auf den verschiedenen Ebenen der Automatisierungspyramide umgesetzt. Eine Energieflexibilitätsmaßnahme ist eine gezielte Handlung, um einen spezifischen Zustandswechsel in einem Produktionssystem zu bewirken. Dieser Vorgang umfasst den Zustandswechsel einer Produktionsstation sowie die daraus resultierenden Wechselwirkungen innerhalb des Produktionssystems \cite{VDI5207Blatt2020}. Die VDI-Richtlinie der Deutschen Ingenieure e.V. \cite{VDI5207Blatt2020} hat 16 verschiedene Energieflexibilitätsmaßnahmen definiert, welche in der Automatisierungspyramide drei verschiedene Ebenen zugeordnet werden, 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{figures/03_Grundlagen/Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik.pdf}
+	\caption{Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik, nach \cite{VDI5207Blatt2020}}
+	\label{fig_03Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik}
+\end{figure}
+
+siehe Abbildung \ref{fig_03Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik}. Neben der Zuweisung der Maßnahmen auf den Ebenen, zeigt die Abbildung \ref{fig_03Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik} eine Untergliederung dieser anhand eines zeitlichen Horizonts.\\
+
+Im folgenden werden die in Abbildung \ref{fig_03Energieflexibilitätsmaßnahmen in der energieflexiblen Fabrik} visualisierten Maßnahmen im Detail beschrieben. Die unterste Ebene der Automatisierungspyramide wird als Fertigungsebene bezeichnet. Auf dieser Ebene werden Maßnahmen innerhalb eines kurzfristigen Zeithorizonts von einer Minute bis zu einer Stunde implementiert \cite{VDI5207Blatt2020}. 
+
+\begin{itemize}[label={--}]
+	\item \textbf{Prozess unterbrechen}: \\Diese Maßnahme beinhaltet temporäre Unterbrechung des Produktionsprozesses bzw. einzelner Verbraucher. 
+	\item \textbf{Prozessparameter anpassen}:\\Die Justierung der Prozessparameter erlaubt die Modifikation des Leistungsbedarfs, ohne dass zusätzlicher Energieeinsatz nachgeholt werden muss.
+	\item \textbf{Bearbeitungsreihenfolge ändern}:\\ Die Variation der Bearbeitungsreihenfolge in den Prozessschritten zielt darauf ab, unterschiedliche Leistungsbedarfe innerhalb der Produktionsherstellung zu nutzen.
+	\item \textbf{Energie speichern inhärent}:\\Die Verwendung von Toleranzen verschiedener Zustandsgrößen in Prozessen als Energiespeicher ermöglicht die bewusste Speicherung von Energie in einem passenden inhärenten Speichermedium.
+	\item \textbf{Energiebivalent betreiben}:\\ Der Einsatz diverser Nutzenergieformen innerhalb der anlagenspezifischen Produktionsprozesse.
+\end{itemize}
+
+In den Produktionsprozessen werden Energieflexibilitätsmaßnahmen auf der Fertigungsleitebene durchgeführt, wobei diese Maßnahmen einen Zeithorizont von einigen Stunden bis zu einer Woche haben. In dieser Arbeit soll ein Konzept zur Umsetzung von ausgewählten Flexibilitätsmaßnahmen auf der MES-Ebene entwickelt werden. Deswegen werden die möglichen Maßnahmen auf der Fertigungsleitebene nicht nur definiert, sondern auch die Voraussetzung für die Umsetzung beschrieben. 
+
+\begin{itemize}[label={--}]
+	\item \textbf{Auftragsstart verschieben}: \\Das Verschieben des Auftragsstarts bezieht sich auf das frühere oder spätere Beginnen von Aufträgen innerhalb längerer Zeiträume. Dabei werden freie Produktionskapazitäten genutzt, um zusätzliche Aufträge in der jeweiligen Periode zu bearbeiten. 
+	
+	Für eine erfolgreiche Implementierung sind ausreichend Puffer in der retrospektiven Planung zur Fertigstellung erforderlich. Das bedeutet, die jeweiligen Aufträge befinden sich nicht auf dem zeitkritischen Pfad und es sind genügend Lagerkapazitäten für die Zwischenlagerung vorhanden.
+	\item \textbf{Auftrag unterbrechen (min-h-d)}: \\Im Fall der Auftragsunterbrechung werden kürzere Zeiträume berücksichtigt. Für die kurzfristige Unterbrechung der Aufträge werden Zeitreserven im Produktionsablauf verwendet. 
+	
+	Die Maßnahme sollte nur umgesetzt werden, wenn die Möglichkeit für eine Unterbrechung der Produktionskette überhaupt besteht. Es dürfen keine Schäden an der Anlage oder Qualitätsverluste an den Produkten entstehen. 
+	\item \textbf{Ressourcenbelegung anpassen}: \\Bei der Anpassung der Ressourcenbelegung werden Produktionsanlagen auf Grundlage ihres Energiebedarfs gezielt ausgewählt. 
+	
+	Dafür ist eine optimierte Kommunikation zwischen den Maschinen erforderlich. Dadurch wird vermieden, nachfolgenden Produktionsprozesse zu verzögern und somit Qualitäts- sowie Produktivitätsanforderungen zu verletzen.
+	\item \textbf{Auftragsreihenfolge ändern}: \\Die Umstellung der Auftragsreihenfolge nutzt die unterschiedlichen Lastprofile der Aufträge und verändert somit das Gesamtlastprofil. Diese Maßnahme ist insbesondere dann erforderlich, wenn andere Maßnahmen nur auf bestimmte Aufträge angewendet werden können. 
+	
+	Voraussetzung ist, dass die verschiedenen Aufträge auch spezifische Lastprofile besitzen. 
+	\item \textbf{Energie speichern}: \\Diese Maßnahme beinhaltet die Speicherung von Energie in einem geeigneten Medium. So kann vorübergehend zusätzliche Energie abgerufen werden (Energiespeicherung) oder der Energieverbrauch reduziert werden (Ausspeicherung). Eine Entkopplung des elektrischen Energiebezugs vom Nutzenergiebedarf ist ebenfalls möglich. 
+	
+	Für eine erfolgreiche Umsetzung der Maßnahme müssen entweder elektrische Speicher (Batterien, Schwungmassenspeicher) oder bzw. auch Nutzenergiespeicher (z. B. Kälte, Wärme) vorhanden sein. Bei Zweitem ist es erforderlich, die Nutzenergiebereitstellung mit einer elektrischen Leistungsaufnahme zu verbinden. 
+	\item \textbf{Energieträger wechseln}: \\Ein Wechsel des Energieträgers hat eine Veränderung des Strombedarfs zur Folge. Es werden somit verschiedene Energieträger bei der Leistungserbringung verwendet. 
+	
+	Für die Implementierung dieser Maßnahme muss es möglich sein, die notwendige Prozessenergie durch mehrere Energieträger zu erzeugen und bereitzustellen. 
+\end{itemize}
+
+In Kapitel \ref{ch_06Techno-ökonomische Analyse} erfolgt eine techno-ökonomische Bewertung, auf deren Grundlage eine Auswahl geeigneter Flexibilitätsmaßnahmen getroffen wird.\\
+
+Auf der höchsten Stufe der Automatisierungspyramide, der Unternehmensleitebene, werden die Maßnahmen langfristig, mit einem Zeithorizont größer als eine Woche, implementiert. 
+
+\begin{itemize}[label={--}] % Benutzerdefinierte Labels
+	\item \textbf{Pausenzeiten verschieben}: \\Die Pausenzeiten verschiedenster Mitarbeiter werden verlegt, in Abhängigkeit von z. B. den aktuellen Strompreisen. Allerdings ist diese Maßnahme nur sinnvoll, wenn der Mitarbeiter auch einen direkten Einfluss auf den Energieverbrauch hat.
+	\item \textbf{Schichtzeiten anpassen}: \\Regulierung der Schichtzeiten in dem Maße, dass niedrigere Energiepreise ausgenutzt werden können.
+	\item \textbf{Produktionsreihenfolge ändern}: \\Die Maßnahme bezieht sich auf die Modifikation der zeitlichen Abfolge von Produktionsaufträgen. Dabei besteht die Möglichkeit, energieintensive Chargen entweder vorzuziehen oder zu verzögern.
+	\item \textbf{Kapazitätsplanung anpassen}: \\Dies umfasst die Anpassung der Zuweisung eines Produkts zu einer bestimmten Produktionsressource. Durch diese Maßnahme kann der Energiebedarf bei der Herstellung des Produkts beeinflusst werden, da verschiedene Produktionsressourcen unterschiedliche Energieanforderungen haben können.
+	\item \textbf{Produktionsstart verschieben}: \\Durch diese Maßnahme wird je nach Situation mit der Produktion vorzeitig oder verzögert begonnen.
+\end{itemize}
+
+
+Diese Arbeit setzt den Fokus auf die mittlere Gruppe, da diese Maßnahmen auf der Fertigungsleitebene ausgeführt werden. Hier werden die verschiedenen Daten aus der Fertigungsebene vereint, um unter Verwendung von \glqq Manufacturing Execution System (MES)\grqq~operative Entscheidungen zu stützen und die Produktionsleistung zu steuern. Das Ziel der Arbeit besteht darin ein Konzept zur Umsetzung der Energieflexibilitätsmaßnahmen an der DLRA auf der MES-Ebene zu entwickeln. In Kapitel \ref{ch_06Analyse des Flexibilitätspotenzials} werden nach einer ausführlichen Bewertung entsprechende Maßnahmen ausgewählt, welche für die Anwendung an der DLRA geeignet sind.\\
+
+Für die Implementierung der verschiedenen Energieflexibilitätsmaßnahmen bestehen spezifische zeitliche Anforderungen. Diese beziehen sich insbesondere auf die Geschwindigkeit mit der Laständerungen durchgeführt werden können. Gemäß der VDI-Richtlinie \cite{VDI5207Blatt2020} sind beim Prozess der Energieflexibilisierung unterschiedliche Zeitintervalle zu berücksichtigen, siehe Abbildung \refeq{fig_03Zeitbezogene Kennzahlen zur Beschreibung von Energieflexibilität}:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400pt]{figures/03_Grundlagen/ZeitbezogeneKennzahlenzurBeschreibungvonEnergieflexibilität.pdf}
+	\caption{Zeitbezogene Kennzahlen zur Beschreibung von Energieflexibilität, nach \cite{VDI5207Blatt2020}}
+	\label{fig_03Zeitbezogene Kennzahlen zur Beschreibung von Energieflexibilität}
+\end{figure}
+
+Diese Zeitintervalle werden durch zeitliche Kennzahlen beschrieben und treten infolge eines auslösenden Ereignisses auf. Darunter fallen Anforderungen an das System sein vorhergehendes Niveau des Stromverbrauchs zu ändern. Der Beginn des auslösenden Ereignisses wird in der Regel, wie in Abbildung \refeq{fig_03Zeitbezogene Kennzahlen zur Beschreibung von Energieflexibilität}, mit $T_0$ gekennzeichnet. Die Länge dieser Intervalle ist variabel und kann unter Umständen auch vernachlässigt werden \cite{VDI5207Blatt2020}. Für eine zweckmäßige Umsetzung der Energieflexibilitätsmaßnahmen und Ausschöpfung des Potenzials muss die Laständerung durch das System ausreichend schnell eingeleitet werden. Der Prozess der Energieflexibilisierung startet mit den ersten vier Phasen Wahrnehmungsdauer, Entscheidungsdauer, Planungsdauer und Anstiegsdauer, siehe Abbildung \refeq{fig_03Zeitbezogene Kennzahlen zur Beschreibung von Energieflexibilität}. Diese Phasen charakterisieren die notwendige Aktivierungszeit bis eine Lastreduktion oder -erhöhung durchgeführt wird \cite{grasslEvaluatingMeasuresAdapting2014}. Wenn Unternehmen bspw. mit dem Anreiz-basierten Demand-Response Instrument “Minute Capacities” arbeiten, darf die Aktivierungszeit 15 Minuten nicht übersteigen \cite{riedelGermanElectricityReserve2007}. “Minute Capacities” ist Teil des deutschen Kapazitätsprogramms, um das Stromübertragungsnetz zu stabilisieren \cite{grasslEvaluatingMeasuresAdapting2014}. Maßnahmen zur Energieflexibilisierung sind über einen festgelegten Mindestzeitraum aufrechtzuerhalten und dürfen nur innerhalb eines definierten Höchstzeitraums Anwendung finden. Das Intervall, beschrieben durch die Abrufdauer, ergibt sich aus den technischen und organisatorischen Einschränkungen der Produktionsmaschinen und -systeme, die von den Maßnahmen zur Energieflexibilität betroffen sind. Die Deaktivierungsdauer oder -zeit beschreibt die Dauer, welche für die Rücknahme der Maßnahme gebraucht wird, um das Produktionssystem auf das ursprüngliche Niveau (Referenzbetrieb) zurückzubringen. Erst nach einer gewissen Regenerationsdauer ist ein erneutes Einleiten einer Maßnahme möglich \cite{grasslEvaluatingMeasuresAdapting2014}.\\ 
+
+Energieflexibilisierung und Demand-Response (Nachfragesteuerung) sind verwandte Konzepte im Energiemanagement, haben aber einige Unterschiede in ihrer Definition und Anwendung. Für die Terminologie Demand-Response wird in dieser Masterthesis die Definition des US-Energieministeriums verwendet. Viele weitere Studien im Bereich Energiemanagement wie \cite{waltherMethodologyClassificationCharacterisation2022, vardakasSurveyDemandResponse2014, bayerCurrentPracticeThinking2015}, verwenden diese Definition.\\
+
+Demand-Response wird spezifisch definiert als “Changes in electric usage by end-use customers from their normal consumption patterns in response to changes in the price of electricity over time, or to incentive payments designed to induce lower electricity use at times of high wholesale market prices or when system reliability is jeopardized.” \cite{qdrBenefitsDemandResponse2006}\\
+
+Es handelt sich um eine spezifische Strategie innerhalb der Energieflexibilisierung, die sich auf die Nachfrageseite konzentriert. Der Fokus liegt auf der Steuerung der Nachfrage durch den Endverbraucher. Im Vergleich bezieht sich die Energieflexibilisierung allgemein auf die Fähigkeit, den Energieverbrauch flexibel anzupassen. Die Energieflexibilisierung umfasst sowohl Angebot als auch Nachfrage und schließt verschiedene Strategien und Technologien ein. Daher ist der Anwendungsbereich weitreichender und umfassender, einschließlich Energiespeicher, flexible Erzeugung und Nachfragesteuerung \cite{stawskaDemandResponseCongestion2021}. Zusammenfassend lässt sich feststellen, dass Demand-Response einen spezifischen Teilaspekt der umfassenderen Energieflexibilisierung darstellt, der sich gezielt auf die Anpassung der Energienachfrage konzentriert.
+
+
+\subsection{Lastanpassung und Lastspitzenglättung}
+\label{ch_03Lastanpassung}
+
+Um die umfassenden Möglichkeiten der Lastanpassung zu verstehen, wird im Folgenden der Begriff Demand-side management (DSM) kurz eingeführt.\\
+
+Demand Response (DR) ist eine Komponente des DSM. Darunter fallen Maßnahmen der Versorgungsunternehmen, den Stromverbrauch der Kunden im Stromnetz anzupassen \cite{waltherMethodologyClassificationCharacterisation2022}. Aus industrieller Sicht wird im DSM neben den DR-Maßnahmen auch die Steigerung der Energieeffizienz berücksichtigt. Energieeffizienz beschreibt die Erhöhung der Leistung im Verhältnis zum Energieeinsatz \cite{palenskyDemandSideManagement2011, lampropoulosCriteriaDemandResponse2013}. Im Rahmen des DSM werden Maßnahmen priorisiert, die den Zeitpunkt und das Ausmaß des Energieverbrauchs der Kunden beeinflussen. Diese Maßnahmen werden unter dem Begriff des Lastmanagements zusammengefasst \cite{gellingsSmartGridEnabling2020}. Zu den klassischen Zielen des Lastmanagements zählen die Reduktion von Spitzenlasten, das Füllen von Lasttälern sowie die zeitliche Verschiebung des Energiebedarfs \cite{VDI5207Blatt2020, waltherMethodologyClassificationCharacterisation2022}, wie in der Abbildung \refeq{fig_03Lastanpassungsstrategien} dargestellt.\\
+
+In der VDI-Richtlinie \cite{VDI5207Blatt2020} werden die Maßnahmen des Lastmanagements bzw. die Strategien der Lastanpassung in energieflexiblen Fabriken im Detail beschrieben: 
+
+\begin{enumerate}[label=\textbf{\arabic*}.]
+	\item \textbf{Lasterhöhung:} \\Nach dieser Strategie wird die Leistungsaufnahme im Vergleich zum Referenzbetrieb erhöht. In dieser Masterarbeit wird der Regelbetrieb einer Durchlaufreinigungsanlage (DLRA) als vergleichender Faktor verwendet. Ein Nachholen der Last ist nicht erforderlich.
+	
+	\item \textbf{Lastverschiebung:} \\Diese Strategie beschreibt eine Steigerung oder Verringerung der Leistungsaufnahme im Vergleich zum Referenzbetrieb. Ein Nachholen der Last kann erforderlich sein. 
+	
+	\item \textbf{Lastverzicht:} \\Nach diesem Ansatz wird die Leistungsaufnahme verglichen mit dem Referenzbetrieb reduziert. Die Leistungsreduktion kann zum einen durch eine verringerte Leistungsaufnahme und zum anderen durch vollständiges Ausschalten umgesetzt werden. Ein Lastnachholbedarf ist nicht möglich. 
+	
+	\item \textbf{Proaktive Lastanpassung:} \\Dieses Konzept leitet verschiedene Maßnahmen für die Änderung der Verbrauchslast ein, um sich an die Preissignale an den jeweiligen Strommärkten anzupassen. Die Lastanpassung wird entweder durch eine Lasterhöhung, ein Lastverzicht oder eine Lastverschiebung realisiert.
+	
+	\item \textbf{Reaktive Lastanpassung:} \\Diese Strategie betrachtet bspw. Lastanpassungsmaßnahmen, welche durch ein externes Signal ausgelöst werden und auf Schwankungen in peripheren Energiekontexten reagieren. Unter den peripheren Energiekontext fallen z. B. externe Faktoren wie Energiepreise, Netzstabilität, Wetterbedingungen und die Verfügbarkeit von erneuerbaren Energien.
+\end{enumerate}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400pt]{figures/03_Grundlagen/Lastanpassungsstrategien.pdf}
+	\caption{Lastanpassungsstrategien, nach \cite{waltherMethodologyClassificationCharacterisation2022}}
+	\label{fig_03Lastanpassungsstrategien}
+\end{figure}
+
+Nach der VDI-Richtlinie \cite{VDI5207Blatt2020} lassen sich sämtliche Strategien der Lastanpassung entweder reaktiv oder proaktiv realisieren. Eine Lastanpassung wird bspw. als proaktiv bezeichnet, wenn verschiedene Akteure historische Wetterdaten und Strompreisinformationen analysieren, um unterschiedliche Wetterszenarien zu prognostizieren, die zu verschieden hohen Energiepreisen führen. In diesem Kontext erfolgt die Lastanpassung im Voraus auf Basis der erwarteten Preissignale.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400pt]{figures/03_Grundlagen/Pro- und Reaktive Lastanpassung.pdf}
+	\caption{Pro- und Reaktive Lastanpassung, nach \cite{VDI5207Blatt2020}}
+	\label{fig_03Pro- und Reaktive Lastanpassung}
+\end{figure}
+
+Ein Beispielszenario für eine reaktive Lastanpassung ist, wenn ein Industrieunternehmen von seinem Energieversorger eine Benachrichtigung erhält, dass die Strompreise aufgrund einer unvorhergesehenen Nachfragespitze in den nächsten zwei Stunden drastisch ansteigen werden. In diesem Fall muss das Unternehmen auf diese Information reagieren, indem es sofort nicht kritischen Anlagen abschaltet, um die Energiekosten zu minimieren und die Belastung des Netzes zu reduzieren. In der Abbildung \refeq{fig_03Pro- und Reaktive Lastanpassung} werden die eben definierten Szenarien verdeutlicht. Auf der x-Achse ist der zeitliche Verlauf dargestellt, während auf der y-Achse die Höhe der Last abgebildet ist.\\
+
+Es folgt eine detailliertere Erläuterung des in Abbildung \refeq{fig_03Lastanpassungsstrategien} dargestellten Flexibilitätsziels der Lastspitzenkappung bzw. Lastspitzenglättung. Die Lastspitzenkappung (Peak Clipping) wird in der Abbildung \refeq{fig_03Lastanpassungsstrategien} als eine Maßnahme innerhalb der Strategie der Lastverringerung dargestellt. In der Literatur werden die Begriffe Lastspitzenkappung (Peak Clipping) und Lastspitzenglättung (Peak Shaving) häufig synonym verwendet \cite{fuhrlander-volkerAutomationArchitectureDemand, dahiruComprehensiveReviewDemand2023, dharaniLoadShiftingPeak2021, waltherMethodologyClassificationCharacterisation2022}. Andere Studien unterscheiden jedoch zwischen diesen beiden Konzepten: Lastspitzenkappung wird als eine spezifische Methode der Lastspitzenglättung betrachtet, die sich primär auf das unmittelbare Kappen von Spitzenlasten konzentriert. Im Gegensatz dazu umfasst Peak Shaving eine breitere Palette von Techniken zur Lastreduktion, wie die Nutzung von Energiespeichern, die Verschiebung des Energieverbrauchs oder den Einsatz von Backup-Generatoren \cite{dharaniLoadShiftingPeak2021}.\\
+
+Die VDI-Richtlinie \cite{VDI5207Blatt2020} definiert Lastspitzenglättung als Maßnahmen zur Reduktion von Lastspitzen im Energieverbrauch eines Nutzers. Diese Strategie beinhaltet kurzfristige und schnelle Lastreduktionen, häufig durch den gezielten Abwurf nicht kritischer Lasten, um das Auftreten hoher Spitzenlasten zu verhindern. Beide Strategien zielen darauf ab, Spitzenlasten in einem Energiesystem zu reduzieren, um die Gesamtkosten zu senken und die Netzstabilität zu verbessern. Eine Reduzierung der Gesamtkosten wird durch die Vermeidung von Spitzenlasttarifen möglich, siehe Kapitel \refeq{ch_03Strommarktdesign und Wetterprognosen}.\\
+
+Lastspitzenglättung wird in der Regel im Rahmen einer umfassenden energieflexiblen Fabrik betrachtet. Diese wird durch die oben beschriebenen Strategien wie Lastverschiebung und Lastverzicht erreicht und führt beispielsweise dazu, dass der gleichzeitige Betrieb von energieintensiven Maschinen nicht zur Überlastung eines Stromkreises führt.\\
+
+Diese Masterthesis orientiert sich an der Definition der VDI-Richtlinie \cite{VDI5207Blatt2020} und verwendet die Begriffe Lastspitzenkappung und Lastspitzenglättung synonym.
+
+
+%Variablen werden kursiv und Konstanten aufrecht geschrieben. Indizes welche zur Eindeutigen Identifizierung dienen, wie z.B. der Strom $I_\textsf{U}$ in Phase U werden auch aufrecht (und je nach Sichtweise ohne Serifen) geschrieben. Indizes welche Variabel sind, wie bei $w_{\textsf{fb,}i}$ in Gleichung (\ref{equ_03Schreibweise1}), werden kursiv geschrieben. Operatoren, wie z.B. der Differentialoperator $\text{d} r$ im Zusammenhang (\ref{equ_03Schreibweise2}), werden aufrecht geschrieben.
+
+%Auch der Umgang mit Einheiten ist genormt. Ein häufig gemachter Fehler ist die Einheit bei der Achsenbeschriftung von Diagrammen in eckige Klammern zu setzen. Auch werden Einheiten immer aufrecht (und ohne Serifen) dargestellt. Zwischen Zahl und Einheit gehört immer ein Leerzeichen. Um im Fließtext einen Umbruch zwischen Zahl und Einheit zu verhindern kann ein geschütztes Leerzeichen verwendet werden (Beispiel: $1\,\textsf{Nm}$). Weitere Infos zu diesem Thema sind im Ordner Umgang\_mit\_Ein\_Gr\_Var\_Konst hinterlegt.
+%
+%\begin{equation}
+%k_\textsf{w,q} = \frac{\sum\limits_{i}^{N_\textsf{fb}} w_{\textsf{fb,}i}}{r_\textsf{Ro} - r_\textsf{Sh}}
+%\label{equ_03Schreibweise1}
+%\end{equation}
+%
+%
+%\begin{equation}
+%\Delta \Delta F(r) = \frac{\text{d}^4 F(r)}{\text{d} r^4}  + \frac{2}{r} \frac{\text{d}^3 F(r)}{\text{d} r^3} - %\label{equ_03Schreibweise2}
+%\end{equation}
+%
+
+%Weiteres Beispiel für Matrizen:
+%
+%%\textbf{N}_\textsf{B} \cdot n_\textsf{B} + \textbf{C}_\textsf{S} \cdot c_\textsf{S} + \textbf{C}_\textsf{R,B} \cdot c_\textsf{R} = \textbf{E}_\textsf{B} \cdot e_\textsf{B}
+%\label{equ_04ModellLuft24}
+%\end{equation}
+%
+
+%
+%\begin{equation}
+%n_\textsf{B} = \left(\begin{array}{c} B_\textsf{1a} \\ B_\textsf{2a} \\ B_\textsf{3a} \\ B_\textsf{4} \\ B_\textsf{3b} \\ B_\textsf{2b} \end{array}\right),\, c_\textsf{S} = \left(\begin{array}{c} V_\textsf{S,1a} \\ V_\textsf{S,2a} \\ V_\textsf{S,3a} \\ V_\textsf{S,4} \\ V_\textsf{S,3b} \\ V_\textsf{S,2b} \\ V_\textsf{S,1b} \end{array}\right), \, c_\textsf{R} = \left(\begin{array}{c} V_\textsf{R,1a} \\ V_\textsf{R,1b} \end{array}\right),\, e_\textsf{B} = \left(\begin{array}{c} V_\textsf{R,2a} \\ V_\textsf{R,3a} \\ V_\textsf{R,4} \\ V_\textsf{R,3b} \\ V_\textsf{R,2b} \\ B_\textsf{1b} \end{array}\right)
+%\label{equ_04ModellLuft24a}
+%\end{equation}
+%
+
+%
+%\begin{equation}
+%\label{equ_04ModellLuft28}
+%\begin{aligned}
+%\textbf{E}_\textsf{B} = &\left(\begin{array}{cccccc} 
+%\lambda_\textsf{fb,1} + \lambda_{\delta,1} & 0 & 0 & 0 & 0 & 0 \\
+%\lambda_\textsf{fb,2} + \lambda_{\delta,2} & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & 0 & 0 & 0 & 0 \\
+%0 & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & 0 & 0 & 0 \\
+%0 & 0 & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & 0 & 0 \\
+%0 & 0 & 0 & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & 0 \\
+%0 & 0 & 0 & 0 & \lambda_\textsf{fb,1} + \lambda_{\delta,1} & 0 \\
+%\end{array}\right) \frac{1}{2} \\
+%+ &\left(\begin{array}{cccccc} 
+%0 & 0 & 0 & 0 & -\lambda_\textsf{fb,1} & 0 \\
+%0 & 0 & 0 & -\lambda_\textsf{fb,2} & -\lambda_\textsf{fb,2} & 0 \\
+%0 & 0 & -\lambda_\textsf{fb,3} & -\lambda_\textsf{fb,3} & 0 & 0 \\
+%0 & -\lambda_\textsf{fb,3} & -\lambda_\textsf{fb,3} & 0 & 0 & 0 \\
+%-\lambda_\textsf{fb,2} & -\lambda_\textsf{fb,2} & 0 & 0 & 0 & 0 \\
+%-\lambda_\textsf{fb,1} & 0 & 0 & 0 & 0 & 0 \\
+%\end{array}\right) \frac{1}{2} \\
+%+ &\left(\begin{array}{cccccc} 
+%0 & 0 & 0 & 0 & 0 & 0 \\
+%0 & 0 & 0 & 0 & 0 & 0 \\
+%0 & 0 & 0 & 0 & 0 & 0 \\
+%0 & 0 & 0 & 0 & 0 & 0 \\
+%0 & 0 & 0 & 0 & 0 & 0 \\
+%0 & 0 & 0 & 0 & 0 & A_\textsf{1b} \\
+%\end{array}\right)
+%\end{aligned}
+%\end{equation}
+%
+
+%
+%\begin{equation}
+%\label{equ_04ModellLuft25}
+%\textbf{N}_\textsf{B} = \left(\begin{array}{cccccc} 
+%A_\textsf{1a} & -A_\textsf{2a} & 0 & 0 & 0 & 0 \\
+%0 & A_\textsf{2a} & -A_\textsf{3a} & 0 & 0 & 0 \\
+%0 & 0 & A_\textsf{3a} & -A_\textsf{4} & 0 & 0 \\
+%0 & 0 & 0 & A_\textsf{4} & -A_\textsf{3b} & 0 \\
+%0 & 0 & 0 & 0 & A_\textsf{3b} & -A_\textsf{2b} \\
+%0 & 0 & 0 & 0 & 0 & A_\textsf{2b} \\
+%\end{array}\right)
+%\end{equation}
+%
+
+%
+%\begin{equation}
+%\label{equ_04ModellLuft26}
+%\textbf{C}_\textsf{S} = \left(\begin{array}{ccccccc} 
+%\lambda_{\delta,1} & \lambda_{\delta,1} & 0 & 0 & 0 & 0 & 0 \\
+%0 & \lambda_{\delta,2} & \lambda_{\delta,2} & 0 & 0 & 0 & 0 \\
+%0 & 0 & \lambda_{\delta,3} & \lambda_{\delta,3} & 0 & 0 & 0 \\
+%0 & 0 & 0 & \lambda_{\delta,3} & \lambda_{\delta,3} & 0 & 0 \\
+%0 & 0 & 0 & 0 & \lambda_{\delta,2} & \lambda_{\delta,2} & 0 \\
+%0 & 0 & 0 & 0 & 0 & \lambda_{\delta,1} & \lambda_{\delta,1} \\
+%\end{array}\right)\frac{1}{2}
+%\end{equation}
+%
+
+%
+%\begin{equation}
+%\label{equ_04ModellLuft27}
+%\textbf{C}_\textsf{R,B} = \left(\begin{array}{cc} 
+%-\left(\lambda_\textsf{fb,1} + \lambda_{\delta,1} \right) & \lambda_\textsf{fb,1} \\
+%0 & 0 \\
+%0 & 0 \\
+%0 & 0 \\
+%0 & 0 \\
+%\lambda_\textsf{fb,1} & -\left(\lambda_\textsf{fb,1} + \lambda_{\delta,1} \right) \\
+%\end{array}\right)\frac{1}{2}
+%\end{equation}
+%
+
+\subsection{Preisbasierte und Anreizbasierte Demand-Response-Strategien}
+
+DR-Maßnahmen sind entweder preis- oder anreizbasiert. Ersteres trifft zu, wenn Schwankungen des Energiepreises zu einer Anpassung des Energieverbrauchs führt. Anreizbasiert sind Sie nur dann, wenn der Verbraucher einen festen Betrag für die Bereitstellung eines bestimmten Anteil der Last erhält, der für DR zur Verfügung steht \cite{qdrBenefitsDemandResponse2006, grasslEvaluatingMeasuresAdapting2014, vardakasSurveyDemandResponse2014, palenskyDemandSideManagement2011}.
+
+Nach \cite{qdrBenefitsDemandResponse2006} werden folgende Preis-basierte Optionen und Anreiz-basierte Programme unterschieden:\\
+
+\textbf{Preis-basierte Optionen:}
+\begin{itemize}[label={--}]
+	\item \textbf{Time-of-use (TOU):}\\
+	 Ein Tarifmodell, das variable Einheitspreise für den Stromverbrauch in verschiedenen Zeitabschnitten innerhalb eines 24-Stunden-Tages festlegt. Diese TOU-Tarife repräsentieren die durchschnittlichen Kosten der Stromerzeugung und -lieferung während dieser spezifischen Zeitintervalle. Durch die Einführung von TOU-Tarifen können Verbraucher ihre Energiekosten optimieren, indem sie ihren Verbrauch in Zeiten mit niedrigeren Preisen verlagern, was gleichzeitig zu einer effizienteren Nutzung der Strominfrastruktur führt.\\
+	 
+	\item \textbf{Real-time pricing (RTP):}\\
+	Ein Preismodell, bei dem die Strompreise typischerweise stündlich variieren und die Schwankungen der Großhandelspreise für Elektrizität widerspiegeln. Kunden werden gewöhnlich auf einer Day-ahead- oder Hour-ahead-Basis über die RTP-Preise informiert. Dies ermöglicht eine präzisere Anpassung des Verbrauchs an die tatsächlichen Erzeugungskosten und fördert eine effizientere Nutzung der Ressourcen.
+	
+	\item \textbf{Critical Peak Pricing (CPP):}\\
+	CPP-Tarife kombinieren Elemente von TOU- und RTP-Tarifen. Die Basisstruktur folgt dem TOU-Modell, wobei jedoch der übliche Spitzenlastpreis unter bestimmten Auslösebedingungen, wie beispielsweise Gefährdung der Systemzuverlässigkeit oder extrem hohe Versorgungspreise, durch einen deutlich höheren CPP-Ereignispreis ersetzt wird. Diese Anpassung ermöglicht eine gezielte Reaktion auf außergewöhnliche Belastungen im Stromnetz und trägt zur Stabilisierung und Effizienzsteigerung des Systems bei.\\
+\end{itemize}
+
+\textbf{Anreiz-basierte Programme:}
+\begin{itemize}[label={--}]
+	\item \textbf{Direct load control:}\\
+	Ein Programm, bei dem der Anbieter elektrische Geräte von Kunden, wie Klimaanlagen oder Warmwasserbereiter, kurzfristig und aus der Ferne ein- oder ausschaltet. Diese Programme richten sich vorwiegend an private Haushalte und kleine Gewerbebetriebe. Durch die Implementierung solcher Programme können Netzbetreiber Lastspitzen effizienter bewältigen und die Netzstabilität verbessern, indem sie den Stromverbrauch in Spitzenzeiten gezielt reduzieren.
+	
+	\item \textbf{Interruptible/curtailable (I/C) service:}\\
+	Diese Tarife beinhalten Optionen zur Lastreduktion, die Kunden Preisnachlässe oder Rechnungsgutschriften bieten, wenn sie einer Reduzierung des Stromverbrauchs bei Systemausfällen zustimmen. Sollte die Lastreduktion nicht eingehalten werden, können Strafzahlungen fällig werden. Solche unterbrechbaren Programme wurden traditionell nur den größten industriellen oder gewerblichen Kunden zur Verfügung gestellt. Durch diese Programme wird die Netzstabilität in Notfällen unterstützt und die Belastung der Strominfrastruktur kann effektiver gemanagt werden.
+	
+	\item \textbf{Demand Bidding/Buyback-Programs:}\\
+	In diesen Programmen geben Kunden Gebote zur Lastreduktion basierend auf den Stromgroßhandelspreisen oder einem entsprechenden Angebot ab. Diese Programme richten sich hauptsächlich an Großkunden, die in der Regel einen Stromverbrauch von einem Megawatt (MW) oder mehr haben. Durch diese Initiativen können Großverbraucher aktiv zur Netzstabilität beitragen und gleichzeitig von finanziellen Anreizen profitieren.
+	
+	\item \textbf{Emergency Demand Response Programs:}\\
+	Diese Programme bieten Kunden finanzielle Anreize, um ihren Stromverbrauch in Zeiten von Reservemangel zu reduzieren. Solche Initiativen helfen, die Netzstabilität während kritischer Perioden zu sichern und verhindern potenzielle Stromausfälle.
+	
+	\item \textbf{Capacity Market Programs:}\\
+	Diese Programme ermöglichen es Kunden, durch Lastabschaltungen als Systemkapazität zur Verfügung zu stehen, um herkömmliche Erzeugungs- oder Lieferressourcen zu ersetzen. Üblicherweise werden Kunden am Tag des Ereignisses benachrichtigt. Die Teilnehmer erhalten Vorauszahlungen für ihre Bereitschaft zur Reduktion, jedoch werden Strafen verhängt, falls sie die erforderliche Lastreduzierung nicht umsetzen. Diese Programme unterstützen die Stabilität und Effizienz des Stromnetzes durch die Optimierung der Nutzung vorhandener Ressourcen.
+	
+	\item \textbf{Ancillary Services Market Programs:}\\
+	Kunden bieten auf den Märkten der unabhängigen Systembetreiber (ISO) oder regionalen Übertragungsorganisationen (RTO) Lastabschaltungen als Betriebsreserven an. Wenn ihre Gebote angenommen werden, erhalten sie den Marktpreis für ihre Bereitschaft zur Lastreduktion. Wird die Lastabschaltung erforderlich, ruft die ISO/RTO die Kunden zur Umsetzung auf, und sie können den Spotmarktpreis für die bereitgestellte Energie erhalten. Diese Programme helfen, die Betriebssicherheit und Flexibilität des Stromnetzes zu erhöhen.	
+\end{itemize}
+
+Die beschriebenen Demand-Response-Instrumente bieten Produktionssystemen die Möglichkeit, durch eine Anpassung ihres Energieverbrauchs an die variierenden Energiekosten signifikante Kosteneinsparungen im Vergleich zu Festpreistarifen zu realisieren. Dies wird erreicht, indem der Energieverbrauch in Zeiten hoher Energiekosten reduziert und in Zeiten niedriger Energiekosten erhöht wird. Voraussetzung dafür ist, dass die Produktionssysteme ihren Energiebedarf präzise kennen und über die Fähigkeit verfügen, diesen flexibel anzupassen. Das bedeutet, dass Produktionssysteme eine hohe Energieflexibilität aufweisen müssen.
+
+Die Abbildung \refeq{fig_03Kategorisierung der DR-Instrumente} zeigt die verschiedenen Preis-basierten und Anreiz-basierten DR-Instrumente im Kontext ihrer zeitlichen Reaktionsfähigkeit.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=400pt]{figures/03_Grundlagen/Kategorisierung der DR-Instrumente.pdf}
+	\caption{Kategorisierung der DR-Instrumente, nach \cite{qdrBenefitsDemandResponse2006, grasslEvaluatingMeasuresAdapting2014}}
+	\label{fig_03Kategorisierung der DR-Instrumente}
+\end{figure}
+
+In der Abbildung \refeq{fig_03Kategorisierung der DR-Instrumente} sind die Preis-basierten Optionen, wie TOU, Day-ahead RTP und RTP/CPP, auf der linken Seite dargestellt. Diese Instrumente ermöglichen eine Anpassung des Energieverbrauchs über längere Zeiträume, angefangen bei Monaten im Voraus bis zu weniger als einer Stunde vor dem Ereignis.\\
+
+Die anreizbasierten Programme, einschließlich Kapazitätsprogramme, Demand Bidding, Notfallprogramme, unterbrechbare Programme und direkte Laststeuerung, sind auf der rechten Seite abgebildet. Diese Programme bieten flexiblere und schnellere Reaktionsmöglichkeiten, da sie oft eine sofortige oder kurzfristige Anpassung des Verbrauchs erfordern. Die Abbildung verdeutlicht, wie verschiedene Demand-Response-Instrumente in Abhängigkeit von der zeitlichen Dringlichkeit eingesetzt werden können, um die Netzstabilität zu gewährleisten und die Effizienz der Stromnutzung zu optimieren.\\
+
+Die beschriebenen preis- und anreizbasierten DR-Instrumente spielen eine entscheidende Rolle im modernen Strommarktdesign. Sie bieten nicht nur flexible Lösungen zur Anpassung des Energieverbrauchs an die variierenden Marktbedingungen, sondern tragen auch wesentlich zur Stabilisierung des Stromnetzes bei.\\
+
+Abbildung \refeq{fig_03Kategorisierung der DR-Instrumente} verdeutlicht, wie verschiedene DR-Instrumente in Abhängigkeit von der zeitlichen Dringlichkeit und der spezifischen Marktbedingungen eingesetzt werden können. Diese Instrumente sind integraler Bestandteil eines effizienten Strommarktdesigns, da sie die Nachfrage auf intelligente Weise steuern und somit die Notwendigkeit kostspieliger Spitzenlastkapazitäten reduzieren.\\
+
+Im Kontext eines dynamischen Strommarkts sind präzise Wetterprognosen von entscheidender Bedeutung. Wetterbedingungen beeinflussen die Erzeugung erneuerbarer Energien wie Wind- und Solarenergie erheblich, was wiederum direkte Auswirkungen auf die Verfügbarkeit und die Kosten von Elektrizität hat. Durch die Integration genauer Wettervorhersagen in das Strommarktdesign können Versorgungsunternehmen und Netzbetreiber die Effizienz der Demand-Response-Instrumente weiter steigern und die Netzstabilität gewährleisten.\\
+
+Das folgende Kapitel \refeq{ch_03Strommarktdesign und Wetterprognosen} wird sich daher mit dem Strommarktdesign und der Rolle von Wetterprognosen befassen. Dabei wird untersucht, wie diese Elemente zusammenwirken, um eine optimale Nutzung der Demand-Response-Instrumente zu ermöglichen und gleichzeitig die Herausforderungen eines zunehmend volatilen Strommarktes zu meistern.

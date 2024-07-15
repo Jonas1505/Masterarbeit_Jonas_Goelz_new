@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ausarbeitung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Eine Dokumentation zur TU Darmstadt-LaTeX-Vorlage ist nach der installation in etwa hier zu finden (User_X ersetzen durch den aktuellen Benutzer):
+% C:\Users\User_X\AppData\Local\Programs\MiKTeX\doc\latex\tuda-ci
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Grundeinstellungen
+
+\documentclass[
+	ngerman,
+	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	class=report,% Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	thesis={type=master, instbox=false},% Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	accentcolor=9c,% Auswahl der Akzentfarbe
+	custommargins=false,% Ränder werden mithilfe von typearea automatisch berechnet
+	marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	BCOR=5mm,%Bindekorrektur, falls notwendig
+	BCORtitlepage=true,
+	%parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Sript
+	fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+	logofile={figures/00_Formalien/tuda_logo.pdf},%Falls die Logo Dateien nicht vorliegen
+	title=small,
+	twoside=false
+]{tudapub}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pakete einbinden
+
+\usepackage{fontspec}
+\usepackage{caption}
+
+
+% Sprachanpassung & Verbesserte Trennregeln
+\usepackage[english, main=ngerman]{babel}
+\usepackage[autostyle]{csquotes}% Anführungszeichen vereinfacht
+\usepackage{microtype}
+\usepackage{enumitem} %für z.B fettgerduckte Zahlen bei einer Aufzählung
+
+% float options
+\usepackage{float}
+
+% Literaturverzeichnis
+\usepackage[backend=biber, style=alphabetic]{biblatex}
+\addbibresource{bibliography/Literaturverzeichnis.bib} % Literaturliste
+
+
+% Tabellen
+%\usepackage{array}     % Basispaket für Tabellenkonfiguration, wird von den folgenden automatisch geladen
+\usepackage{tabularx}   % Tabellen, die sich automatisch der Breite anpassen
+\usepackage{longtable} % Mehrseitige Tabellen
+%\usepackage{xltabular} % Mehrseitige Tabellen mit anpassarer Breite
+\usepackage{booktabs}   % Verbesserte Möglichkeiten für Tabellenlayout über horizontale Linien
+\usepackage{multirow}
+
+% Paketvorschläge Mathematik
+\usepackage{mathtools} % erweiterte Fassung von amsmath
+%\usepackage[]{amsmath}
+\usepackage[single]{accents}
+%\usepackage{amssymb}   % erweiterter Zeichensatz
+%\usepackage{siunitx}   % Einheiten
+
+% Pakete für Grafiken
+\usepackage{graphicx}
+\graphicspath{{figures/00_Formalien/}{figures/01_Zusammenfassung/}{figures/02_Einleitung/}{figures/03_Grundlagen/}{figures/04_Aktueller Forschungsstand und Forschungsfrage/}{figures/05_Hauptteil/}{figures/06_Vergleich/}{figures/07_Fazit/}{figures/99_Anhang/}} % Standardpfade für Grafikimport, müssen an jeweilige Ordnerstruktur angepasst werden
+\usepackage{xcolor}
+\usepackage{transparent}
+\usepackage{pdfpages}
+
+\usepackage{setspace} % Zeilenabstände
+
+\usepackage{pifont}% Zapf-Dingbats Symbole
+\newcommand*{\FeatureTrue}{\ding{52}}
+\newcommand*{\FeatureFalse}{\ding{56}}
+
+% Hurenkinder und Schusterjungen verhindern (Das wird wirklich so genannt, hab ich mir nicht ausgedacht xD)
+\clubpenalty10000
+\widowpenalty10000
+\displaywidowpenalty=10000
+
+%Definiert Länge der Einrückung bei neuem Absatz
+\setlength{\parindent}{0pt}
+
+%URL font style
+\urlstyle{same}
+
+% Zusätzliche Überschriften Ebene
+%\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+% Silbentrennung
+\hyphenation{Re-luk-tanz-ma-schi-nen}
+
+\captionsetup{font=normal, labelfont={normal}}
+
+
+\begin{document}
+
+% Metadaten der PDF-Datei
+\Metadata{
+	title=Energetische Flexibilisierung des Betriebs einer Durchlaufreinigungsanlage durch techno-ökonomische Optimierung auf der Betriebsleitebene,
+	author=Jonas Gölz,
+	keywords={Synchron-Reluktanzmaschine \sep Rotorgeometrie \sep Drehmomentwelligkeit \sep Serienfertigung \sep Symmetrieeigenschaften}
+}
+
+
+        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Titelseite
+\title{\begin{spacing}{2}{\fontsize{23}{23} \selectfont Energetische Flexibilisierung des Betriebs einer Durchlaufreinigungsanlage durch techno-ökonomische Optimierung auf der Betriebsleitebene}\end{spacing}}
+
+\subtitle{Energetic flexibilization of the operation of an Aqueous Parts Cleaning Machine through techno-economic optimization at the Manufacturing Excution System level}
+\author[Jonas Gölz]{Jonas Gölz}%optionales Argument ist die Signatur
+
+\reviewer{Prof. Dr.-Ing. Matthias Weigold}%Gutachter
+
+%Diese Felder werden untereinander auf der Titelseite platziert.
+%\department ist eine notwendige Angabe, siehe auch dem Abschnitt `Abweichung von den Vorgaben für die Titelseite'
+\department{mb} % Das Kürzel wird automatisch ersetzt und als Studienfach gewählt, siehe Liste der Kürzel im Dokument.
+
+\submissiondate{24. Oktober 2024}
+%\examdate{4. Februar 2021}
+%\date{4. Februar 2021}
+\publishers{}
+%\titleaddendum{Betreuer(intern): Dipl.-Ing.\newline
+%Betreuer(extern): M.Sc. }
+
+%\addTitleBoxLogo*{\includegraphics[width=0.66\linewidth]{figures/00_Formalien/PTW_Logo_CMYK_whitebackground.pdf}}
+\addTitleBoxLogo*{\includegraphics[width=1.0\linewidth]{figures/00_Formalien/PTW_Logo.pdf}}
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Aufgabenstellung
+\pagenumbering{gobble} 	% einstellen der Seiten Nummerierung {gobble=keine Seitenzahl, Roman=große römische Zahlen, roman=kleine römische Zahlen, arabic=arabische Zahlen}
+
+%\noindent 	% einrücken des Textes zu beginn eines neuen Absatzes unterdrücken (hier benutzt, damit die folgende Grafik nicht verschoben wird)
+%\includegraphics[scale=0.95]{Texte/Aufgabenstellung.eps} 	% einbinden einer Abbildung [Skalierung]{Dateipfad ausgehend vom Ablageort der Hauptdatei/Dateiname mit Dateiendung z.B. eps, png, ...}
+\newpage
+ %$\quad$
+\includepdf[pages=-]{figures/00_Formalien/Aufgabenstellung.pdf}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Eigenständigkeitserklärung
+
+% Version der Erklärung aus tuda-ci-package
+\affidavit[signature=Jonas Gölz,signature-image={\includegraphics[width=\width]{figures/00_Formalien/Signatur_MaxMustermann.png}}]
+
+
+\newpage
+% Leere Seite
+%\quad
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Römische Seitenzahlen
+\pagenumbering{Roman}
+%\frontmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract/Zusammenfassung
+\pdfbookmark[0]{Abstract}{abstract}	% Lesezeichen im PDF Reader [Gliederungstiefe (Position in Lesezeichenbaum) -1, 0, ...,5]{Titel des Lesezeichens}{label auf das verwiesen wird also die Stelle in Textdokument zu der hingesprungen werden soll}
+\input{texts/01_Zusammenfassung/Abstract}
+\phantomsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inhaltsangabe
+\newpage
+\makeatletter
+\renewcommand*{\@pnumwidth}{3em} % Breite der Box für Seitenzahlen im Inhaltsverzeichnis erhöhen
+\makeatother
+
+\pdfbookmark[0]{Inhaltsverzeichnis}{toc}
+\tableofcontents % Inhaltsverzeichnis erstellen
+% Abstände für Seitenzahlen im Inhaltsverzeichnis erhöhen
+\phantomsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Formelzeichen und Abkürzungen
+\newpage
+\input{texts/00_Formalien/Abkuerzungsverzeichnis.tex}
+%\newpage
+\phantomsection
+\input{texts/00_Formalien/Formelzeichen.tex}
+\phantomsection
+\setcounter{table}{0} % Setzt den Tabellenzähler zurück auf Null, damit die vorherigen Tabellen für die Formelzeichen und Abkürzungen nicht mitgezählt werden
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Liste der Abbildungen
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename} % zusätzlichen Eintrag zu Verzeichnis hinzufügen, da für das Abbildungverzeichnis/Tabellenverzeichnis nicht automatisch ein Eintrag generiert wird {Wo der Eintrag erfolgen soll, hier toc (Table of contents) im Inhaltsverzeichnis}{Ebene also Kapitel, Unterkapitel, ...}{Bezeichnung Eintrag}
+\listoffigures 	% Liste der Abbildung erstellen
+\phantomsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Liste der Tabellen
+\newpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables % Liste der Tabellen erstellen
+\phantomsection
+
+% Leere Seite
+\newpage 
+\quad 
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Umstellung von römischen Seitenzahlen auf arabische und speichern der römischen Seitenzahl
+\newpage
+\newcounter{savecounter} 	% initialisiert einen Zähler der einen Wert speichern kann mit dem Wert Null {Bezeichnung des Zählers}
+\setcounter{savecounter}{\value{page}} 	% weist einem Zähler einen Wert zu {Bezeichnung des Zählers}{Wert der zugewiesen werden soll}
+\pagenumbering{arabic}
+%\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Einleitung
+\input{texts/02_Einleitung/02_Einleitung.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Grundlagen
+\input{texts/03_Energieflexibilisierung, Strommarktdesign und wässrige Teilreinigung Grundlagen/03_Grundlagen.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vorbereitung
+\input{texts/04_Aktueller Forschungsstand und Forschungsfrage/04_Aktueller Forschungsstand und Forschungsfrage.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Optimierung
+\input{texts/05_Untersuchungsmethodik/05_Untersuchungsmethodik.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Verlgeich und Bewertung
+\input{texts/06_Techno-ökonomische Analyse/06_Techno-ökonomische Analyse.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Implementierung und Simulation
+\input{texts/07_Implementierung und Simulation/07_Implementierung und Simulation.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ergebnisse 
+\input{texts/08_Ergebnisse/08_Ergebnisse.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Diskussion und Schlussfolgerung
+\input{texts/09_Diskussion und Schlussfolgerung/09_Diskussion und Schlussfolgerung.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Umstellung auf römische Zahlen (es wird beim gespeicherten Wert weiter gezählt)
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{\value{savecounter}}
+%\backmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anhang
+\begin{appendix}
+\input{texts/99_Anhang/99_Anhang.tex}
+\end{appendix}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Literaturverzeichnis
+\newpage
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\renewcommand{\bibname}{Literaturverzeichnis} 	% Umbenennung des Literaturverzeichnisses 
+\printbibliography
+\phantomsection
+
+
+\end{document}

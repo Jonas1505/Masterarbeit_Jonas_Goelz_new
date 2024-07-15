@@ -1,0 +1,165 @@
+%% Creator: Inkscape 1.3.2 (091e20e, 2023-11-25, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BigPicture.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{580.94206562bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.3005502)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(-0.00000004,1.18216978){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}  Expertengespräche\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BigPicture.pdf}}%
+    \put(0.29235645,1.19889528){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Einlaufzone\end{tabular}}}}%
+    \put(0.42155587,1.20086808){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reinigungszone\end{tabular}}}}%
+    \put(0.56673624,1.1989519){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zwischenzone\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BigPicture.pdf}}%
+    \put(0.70030274,1.20064168){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Trocknungszone\end{tabular}}}}%
+    \put(0.84896715,1.20064168){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Abgabezone\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BigPicture.pdf}}%
+    \put(0.45268224,1.262156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Referenzprozess der DLRA\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BigPicture.pdf}}%
+    \put(0.00861872,1.28645417){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Literaturrecherche\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{BigPicture.pdf}}%
+    \put(0.33503605,1.02151164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Techno-ökonomische Analyse\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{BigPicture.pdf}}%
+    \put(0.24756437,0.7816623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Vision \&\\Strategie\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{BigPicture.pdf}}%
+    \put(0.33259089,0.78194484){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielsetzung\end{tabular}}}}%
+    \put(0.36724087,0.78223442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Messgrößen\end{tabular}}}}%
+    \put(0.40638195,0.78160761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielwerte\end{tabular}}}}%
+    \put(0.43649471,0.7818306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Maßnahmen\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{BigPicture.pdf}}%
+    \put(0.05468502,0.78151032){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielsetzung\end{tabular}}}}%
+    \put(0.08933499,0.7817999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Messgrößen\end{tabular}}}}%
+    \put(0.12847608,0.78117309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielwerte\end{tabular}}}}%
+    \put(0.15858884,0.78139608){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Maßnahmen\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{BigPicture.pdf}}%
+    \put(0.19365557,0.90297539){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielsetzung\end{tabular}}}}%
+    \put(0.22830555,0.90326497){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Messgrößen\end{tabular}}}}%
+    \put(0.26744664,0.90263816){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielwerte\end{tabular}}}}%
+    \put(0.30014141,0.90286115){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Maßnahmen\\\end{tabular}}}}%
+    \put(0.21732628,0.9219458){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Kosten \& Einsparpotenziale\end{tabular}}}}%
+    \put(0.10319221,0.8007654){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Stakeholder\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{BigPicture.pdf}}%
+    \put(0.28165429,0.68400246){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielsetzung\end{tabular}}}}%
+    \put(0.31630426,0.68429204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Messgrößen\end{tabular}}}}%
+    \put(0.35544535,0.68366523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielwerte\end{tabular}}}}%
+    \put(0.38555811,0.68388822){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Maßnahmen\\\end{tabular}}}}%
+    \put(0.2981017,0.70401546){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Betriebs- \& Effizienzperspektive \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{BigPicture.pdf}}%
+    \put(0.10360401,0.68400246){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielsetzung\end{tabular}}}}%
+    \put(0.13825399,0.68429204){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Messgrößen\end{tabular}}}}%
+    \put(0.17739507,0.68366523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Zielwerte\end{tabular}}}}%
+    \put(0.20750783,0.68388822){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Maßnahmen\\\end{tabular}}}}%
+    \put(0.10805598,0.70275941){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Innovation- \& Entwicklungsperspektive\end{tabular}}}}%
+    \put(0.36858484,0.80169992){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ökologischer Nutzen\end{tabular}}}}%
+    \put(0.1337628,0.61163943){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Sustainability-Balanced-Scorecard\end{tabular}}}}%
+    \put(0.57684993,0.93503752){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Wirtschaftliche \\Bewertungsmethoden \end{tabular}}}}%
+    \put(0.78801282,0.9351215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Technische\\Bewertungsmethoden\end{tabular}}}}%
+    \put(0.58610266,0.87054979){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Kosten-Nutzen-Analyse \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{BigPicture.pdf}}%
+    \put(0.55679116,0.79685078){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Life-Cycle-\\Cost-Analysis\end{tabular}}}}%
+    \put(0.69651991,0.79690676){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Total-Cost-\\of-Ownership\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{BigPicture.pdf}}%
+    \put(0.59348214,0.73205717){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Statische Validierung \\      \& Bewertung \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{BigPicture.pdf}}%
+    \put(0.5587034,0.63332886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Multiple\\Regression\end{tabular}}}}%
+    \put(0.71719873,0.63137679){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ANOVA\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{BigPicture.pdf}}%
+    \put(0.7780508,0.8731384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Vorgehen zur energetischen\\Flexibiliserung nach VDI 5207\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{BigPicture.pdf}}%
+    \put(0.79086445,0.804078){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.79090083,0.74607586){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.7909862,0.68815541){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.79078529,0.64090144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.81777172,0.8134384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Def. von Energie-\\flexibilitätszielen und Umfang\end{tabular}}}}%
+    \put(0.81777172,0.77010657){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Transparenzschaffung\\i. Technische Potenzialabschätzung\\ii. Datenerhebung \\iii. Auswertung \end{tabular}}}}%
+    \put(0.81920399,0.69001826){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Identifikation möglicher Maßnahmen \\\end{tabular}}}}%
+    \put(0.81777172,0.65037607){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Umsetzung\\der Energeiflexibilitätsmaßnahmen \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{BigPicture.pdf}}%
+    \put(0.03763217,0.29109095){\color[rgb]{0,0,0}\rotatebox{89.637461}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}              Auswahl der \\Energieflexibilitätsmaßnahmen\end{tabular}}}}}%
+    \put(0.14405044,0.31022594){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}weitere...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{BigPicture.pdf}}%
+    \put(0.12452006,0.40698896){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energie speichern\end{tabular}}}}%
+    \put(0.13426974,0.36465){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energiebezug\\ anpassen\\\end{tabular}}}}%
+    \put(0.13473454,0.47029132){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Auftrag \\unterbrechen\\(min-h-d)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{BigPicture.pdf}}%
+    \put(0.88539251,0.54150693){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Wettervorhersagen,\\Strompreisprognosen\end{tabular}}}}%
+    \put(0.81579558,0.36112602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}      zentraler \\  OPC UA Server\\(OPC UA 4 EnFlex)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{BigPicture.pdf}}%
+    \put(0.72337627,0.45463547){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}      ERP-System\\- Unternehmensplanung\\- Ressourcenmanagement\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{BigPicture.pdf}}%
+    \put(0.609778,0.46629877){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MES-System\\(OPC UA-Client)\end{tabular}}}}%
+    \put(0.59851788,0.44015488){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}- Produktionsüberwachung \\- Prozesssteuerung\\- Energiemanagement \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{BigPicture.pdf}}%
+    \put(0.49765472,0.36112589){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}   Edgedevice \&\\ OPC UA Server\\(OPC UA 4 EnFlex)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{BigPicture.pdf}}%
+    \put(0.61877023,0.30096559){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}  SPS-Steuerug\\- Direkte\\  Maschinensteuerung\\- Daten von Sensoren \\  und Aktoren\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{BigPicture.pdf}}%
+    \put(0.50285532,0.28764103){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}  SCADA-System\\- Echtzeitüberwachung\\- Steuerung und\\  Datenerfassung\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{BigPicture.pdf}}%
+    \put(0.75654151,0.52467694){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EFDM-Maßnahmen, \\Strommarktdaten\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{BigPicture.pdf}}%
+    \put(0.59055152,0.35376387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}       Energie-\\managementdaten\end{tabular}}}}%
+    \put(0.42027664,0.34129974){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}         Energie-\\flexibiliserungsdaten\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{BigPicture.pdf}}%
+    \put(0.725308,0.22239705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}    DLRA \&\\  proprietärer\\OPC UA Server\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{BigPicture.pdf}}%
+    \put(0.57566133,0.10142119){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Implementierung und Simulation\\\\\end{tabular}}}}%
+    \put(0.41979638,0.0373367){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Def. von verschiedenen\\Betriebsszenarien in Abhängigkeit \\von Wetter und Applikationsverfahren \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{BigPicture.pdf}}%
+    \put(0.62032134,0.03311783){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ermittlung der Energiebedarfe\\auf Basis des Referenzprozesses\end{tabular}}}}%
+    \put(0.24288804,0.99795566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}= die Bewertung verschiedener Flexibilitätsziele und die Analyse\\                    des jeweiligen Flexibilitätspotenzials\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{BigPicture.pdf}}%
+    \put(0.42322015,0.53653907){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Konzeptübersicht zur Umsetzung \\der Flexibilitätsmaßnahmen \\auf MES-Ebene \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{BigPicture.pdf}}%
+    \put(0.80268687,0.03441634){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Experimentelle Validierung der Szenarien\\und wirtschaftliche Bewertung\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{BigPicture.pdf}}%
+  \end{picture}%
+\endgroup%

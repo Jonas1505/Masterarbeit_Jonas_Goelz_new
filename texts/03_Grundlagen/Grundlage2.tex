@@ -1,0 +1,111 @@
+\section{Grundlagen2}
+\label{ch_03Grundlagen2}
+Weitere Grundlagen bla bla bla...
+
+\subsection{Schreibweise von Variablen, Konstanten, Operatoren, Indizes und Einheiten}
+\label{ch_03Schreibweise}
+Variablen werden kursiv und Konstanten aufrecht geschrieben. Indizes welche zur Eindeutigen Identifizierung dienen, wie z.B. der Strom $I_\textsf{U}$ in Phase U werden auch aufrecht (und je nach Sichtweise ohne Serifen) geschrieben. Indizes welche Variabel sind, wie bei $w_{\textsf{fb,}i}$ in Gleichung (\ref{equ_03Schreibweise1}), werden kursiv geschrieben. Operatoren, wie z.B. der Differentialoperator $\text{d} r$ im Zusammenhang (\ref{equ_03Schreibweise2}), werden aufrecht geschrieben.
+
+Auch der Umgang mit Einheiten ist genormt. Ein häufig gemachter Fehler ist die Einheit bei der Achsenbeschriftung von Diagrammen in eckige Klammern zu setzen. Auch werden Einheiten immer aufrecht (und ohne Serifen) dargestellt. Zwischen Zahl und Einheit gehört immer ein Leerzeichen. Um im Fließtext einen Umbruch zwischen Zahl und Einheit zu verhindern kann ein geschütztes Leerzeichen verwendet werden (Beispiel: $1\,\textsf{Nm}$). Weitere Infos zu diesem Thema sind im Ordner Umgang\_mit\_Ein\_Gr\_Var\_Konst hinterlegt.
+%
+\begin{equation}
+k_\textsf{w,q} = \frac{\sum\limits_{i}^{N_\textsf{fb}} w_{\textsf{fb,}i}}{r_\textsf{Ro} - r_\textsf{Sh}}
+\label{equ_03Schreibweise1}
+\end{equation}
+%
+%
+\begin{equation}
+\Delta \Delta F(r) = \frac{\text{d}^4 F(r)}{\text{d} r^4}  + \frac{2}{r} \frac{\text{d}^3 F(r)}{\text{d} r^3} - \frac{1}{r^2} \frac{\text{d}^2 F(r)}{\text{d} r^2} + \frac{1}{r^3} \frac{\text{d} F(r)}{\text{d} r}
+\label{equ_03Schreibweise2}
+\end{equation}
+%
+
+Weiteres Beispiel für Matrizen:
+%
+\begin{equation}
+\textbf{N}_\textsf{B} \cdot n_\textsf{B} + \textbf{C}_\textsf{S} \cdot c_\textsf{S} + \textbf{C}_\textsf{R,B} \cdot c_\textsf{R} = \textbf{E}_\textsf{B} \cdot e_\textsf{B}
+\label{equ_04ModellLuft24}
+\end{equation}
+%
+
+%
+\begin{equation}
+n_\textsf{B} = \left(\begin{array}{c} B_\textsf{1a} \\ B_\textsf{2a} \\ B_\textsf{3a} \\ B_\textsf{4} \\ B_\textsf{3b} \\ B_\textsf{2b} \end{array}\right),\, c_\textsf{S} = \left(\begin{array}{c} V_\textsf{S,1a} \\ V_\textsf{S,2a} \\ V_\textsf{S,3a} \\ V_\textsf{S,4} \\ V_\textsf{S,3b} \\ V_\textsf{S,2b} \\ V_\textsf{S,1b} \end{array}\right), \, c_\textsf{R} = \left(\begin{array}{c} V_\textsf{R,1a} \\ V_\textsf{R,1b} \end{array}\right),\, e_\textsf{B} = \left(\begin{array}{c} V_\textsf{R,2a} \\ V_\textsf{R,3a} \\ V_\textsf{R,4} \\ V_\textsf{R,3b} \\ V_\textsf{R,2b} \\ B_\textsf{1b} \end{array}\right)
+\label{equ_04ModellLuft24a}
+\end{equation}
+%
+
+%
+\begin{equation}
+\label{equ_04ModellLuft28}
+\begin{aligned}
+\textbf{E}_\textsf{B} = &\left(\begin{array}{cccccc} 
+\lambda_\textsf{fb,1} + \lambda_{\delta,1} & 0 & 0 & 0 & 0 & 0 \\
+\lambda_\textsf{fb,2} + \lambda_{\delta,2} & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & 0 & 0 & 0 & 0 \\
+0 & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & 0 & 0 & 0 \\
+0 & 0 & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & \lambda_\textsf{fb,3} + \lambda_{\delta,3} & 0 & 0 \\
+0 & 0 & 0 & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & \lambda_\textsf{fb,2} + \lambda_{\delta,2} & 0 \\
+0 & 0 & 0 & 0 & \lambda_\textsf{fb,1} + \lambda_{\delta,1} & 0 \\
+\end{array}\right) \frac{1}{2} \\
++ &\left(\begin{array}{cccccc} 
+0 & 0 & 0 & 0 & -\lambda_\textsf{fb,1} & 0 \\
+0 & 0 & 0 & -\lambda_\textsf{fb,2} & -\lambda_\textsf{fb,2} & 0 \\
+0 & 0 & -\lambda_\textsf{fb,3} & -\lambda_\textsf{fb,3} & 0 & 0 \\
+0 & -\lambda_\textsf{fb,3} & -\lambda_\textsf{fb,3} & 0 & 0 & 0 \\
+-\lambda_\textsf{fb,2} & -\lambda_\textsf{fb,2} & 0 & 0 & 0 & 0 \\
+-\lambda_\textsf{fb,1} & 0 & 0 & 0 & 0 & 0 \\
+\end{array}\right) \frac{1}{2} \\
++ &\left(\begin{array}{cccccc} 
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & A_\textsf{1b} \\
+\end{array}\right)
+\end{aligned}
+\end{equation}
+%
+
+%
+\begin{equation}
+\label{equ_04ModellLuft25}
+\textbf{N}_\textsf{B} = \left(\begin{array}{cccccc} 
+A_\textsf{1a} & -A_\textsf{2a} & 0 & 0 & 0 & 0 \\
+0 & A_\textsf{2a} & -A_\textsf{3a} & 0 & 0 & 0 \\
+0 & 0 & A_\textsf{3a} & -A_\textsf{4} & 0 & 0 \\
+0 & 0 & 0 & A_\textsf{4} & -A_\textsf{3b} & 0 \\
+0 & 0 & 0 & 0 & A_\textsf{3b} & -A_\textsf{2b} \\
+0 & 0 & 0 & 0 & 0 & A_\textsf{2b} \\
+\end{array}\right)
+\end{equation}
+%
+
+%
+\begin{equation}
+\label{equ_04ModellLuft26}
+\textbf{C}_\textsf{S} = \left(\begin{array}{ccccccc} 
+\lambda_{\delta,1} & \lambda_{\delta,1} & 0 & 0 & 0 & 0 & 0 \\
+0 & \lambda_{\delta,2} & \lambda_{\delta,2} & 0 & 0 & 0 & 0 \\
+0 & 0 & \lambda_{\delta,3} & \lambda_{\delta,3} & 0 & 0 & 0 \\
+0 & 0 & 0 & \lambda_{\delta,3} & \lambda_{\delta,3} & 0 & 0 \\
+0 & 0 & 0 & 0 & \lambda_{\delta,2} & \lambda_{\delta,2} & 0 \\
+0 & 0 & 0 & 0 & 0 & \lambda_{\delta,1} & \lambda_{\delta,1} \\
+\end{array}\right)\frac{1}{2}
+\end{equation}
+%
+
+%
+\begin{equation}
+\label{equ_04ModellLuft27}
+\textbf{C}_\textsf{R,B} = \left(\begin{array}{cc} 
+-\left(\lambda_\textsf{fb,1} + \lambda_{\delta,1} \right) & \lambda_\textsf{fb,1} \\
+0 & 0 \\
+0 & 0 \\
+0 & 0 \\
+0 & 0 \\
+\lambda_\textsf{fb,1} & -\left(\lambda_\textsf{fb,1} + \lambda_{\delta,1} \right) \\
+\end{array}\right)\frac{1}{2}
+\end{equation}
+%
+
